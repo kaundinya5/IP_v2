@@ -1,0 +1,1815 @@
+
+<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+
+<body class="impress-not-supported stretched side-header side-header-right first_time" style="background:transparent !important">
+
+<div class="stars"></div>
+<div class="twinkling"></div>
+<div class="clouds"></div>
+<!--
+    For example this fallback message is only visible when there is `impress-not-supported` class on body.
+-->
+<div id="wrapper" class=" fallback-message clearfix" style="background: transparent;">
+
+    <section id="content" class="full-screen with-header  clearfix" style="background: transparent;">
+
+
+
+            <div class="container  clearfix" style="min-height: 100vh; background: transparent;">
+
+                <div id="impress">
+
+                    <!--
+
+                        Here is where interesting thing start to happen.
+
+                        Each step of the presentation should be an element inside the `#impress` with a class name
+                        of `step`. These step elements are positioned, rotated and scaled by impress.js, and
+                        the 'camera' shows them on each step of the presentation.
+
+                        Positioning information is passed through data attributes.
+
+                        In the example below we only specify x and y position of the step element with `data-x="-1000"`
+                        and `data-y="-1500"` attributes. This means that **the center** of the element (yes, the center)
+                        will be positioned in point x = -1000px and y = -1500px of the presentation 'canvas'.
+
+                        It will not be rotated or scaled.
+
+                    -->
+                    <div id="home" class="step " style="background:transparent" data-x="-2000" data-y="-1500">
+                        <header id="header" class="" style="background:transparent !important;position: fixed; top: 0px; width:100%; z-index: 1000;">
+
+                            <div id="header-wrap" style="background:transparent">
+
+                                <div class="container clearfix">
+
+                                    <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+                                    <!-- Logo
+                                    ============================================= -->
+                                    <div href="#home"  id="logo">
+                                        <a href="#home" class="standard-logo" data-dark-logo="assets/logo.png"><img href="#home"  src="assets/logo.png" alt="IdeaPortal Logo"></a>
+                                        <a href="#home" class="retina-logo" data-dark-logo="assets/logo.png"><img src="assets/logo.png" alt="IdeaPortal Logo"></a>
+                                    </div><!-- #logo end -->
+
+                                    <!-- Primary Navigation
+                                    ============================================= -->
+                                    <nav id="primary-menu">
+
+                                        <ul>
+                                            <li><a href="index.html"><div>Home</div></a>
+
+                                            </li>
+                                            <li><a href="#"><div>Features</div></a>
+                                                <ul>
+                                                    <li><a href="#"><div><i class="icon-stack"></i>Sliders</div></a>
+                                                        <ul>
+                                                            <li><a href="slider-revolution.html"><div>Revolution Slider</div></a>
+                                                                <ul>
+                                                                    <li><a href="slider-revolution.html"><div>Full Screen</div></a></li>
+                                                                    <li><a href="slider-revolution-fullwidth.html"><div>Full Width</div></a></li>
+                                                                    <li><a href="slider-revolution-kenburns.html"><div>Kenburns Effect</div></a></li>
+                                                                    <li><a href="slider-revolution-html5-videos.html"><div>HTML5 Video</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="slider-canvas.html"><div>Canvas Slider</div></a>
+                                                                <ul>
+                                                                    <li><a href="slider-canvas.html"><div>Full Width</div></a></li>
+                                                                    <li><a href="slider-canvas-fade.html"><div>Fade Transition</div></a></li>
+                                                                    <li><a href="slider-canvas-autoplay.html"><div>Autoplay Feature</div></a></li>
+                                                                    <li><a href="slider-canvas-video-event.html"><div>Custom Video Event</div></a></li>
+                                                                    <li><a href="slider-canvas-pagination.html"><div>Pagination Navigation</div></a></li>
+                                                                    <li><a href="slider-canvas-3.html"><div>3 Columns</div></a></li>
+                                                                    <li><a href="slider-canvas-4.html"><div>4 Columns</div></a></li>
+                                                                    <li><a href="slider-canvas-5.html"><div>5 Columns</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="slider-flex.html"><div>Flex Slider</div></a>
+                                                                <ul>
+                                                                    <li><a href="slider-flex.html"><div>Default Layout</div></a></li>
+                                                                    <li><a href="slider-flex-thumbs.html"><div>with Thumbs</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="slider-owl.html"><div>Owl Slider</div></a>
+                                                                <ul>
+                                                                    <li><a href="slider-owl-full.html"><div>Full Width</div></a></li>
+                                                                    <li><a href="slider-owl.html"><div>Boxed Width</div></a></li>
+                                                                    <li><a href="slider-owl-videos.html"><div>Video Slider</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="static-parallax.html"><div>Static Media</div></a>
+                                                                <ul>
+                                                                    <li><a href="static-parallax.html"><div>Static - Parallax</div></a></li>
+                                                                    <li><a href="static-image.html"><div>Static - Image</div></a></li>
+                                                                    <li><a href="static-thumbs-grid.html"><div>Static - Thumb Gallery</div></a></li>
+                                                                    <li><a href="static-html5-video.html"><div>Static - HTML5 Video</div></a></li>
+                                                                    <li><a href="static-embed-video.html"><div>Static - Embedded Video</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="slider-camera.html"><div>Camera Slider</div></a></li>
+                                                            <li><a href="slider-elastic.html"><div>Elastic Slider</div></a></li>
+                                                            <li><a href="slider-nivo.html"><div>Nivo Slider</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="widgets.html"><div><i class="icon-gift"></i>Widgets</div></a>
+                                                        <ul>
+                                                            <li><a href="widgets.html"><div>Links</div></a></li>
+                                                            <li><a href="widgets.html"><div>Flickr Photostream</div></a></li>
+                                                            <li><a href="widgets.html"><div>Dribbble Shots</div></a></li>
+                                                            <li><a href="widgets.html"><div>Instagram Feed</div></a></li>
+                                                            <li><a href="widgets.html"><div>Posts List</div></a></li>
+                                                            <li><a href="widgets.html"><div>Twitter Feed</div></a></li>
+                                                            <li><a href="widgets.html"><div>Tabbed Widgets</div></a></li>
+                                                            <li><a href="widgets.html"><div>Carousel</div></a></li>
+                                                            <li><a href="widgets.html"><div>Subscribers</div></a></li>
+                                                            <li><a href="widgets.html"><div>Social Icons</div></a></li>
+                                                            <li><a href="widgets.html"><div>Testimonials</div></a></li>
+                                                            <li><a href="widgets.html"><div>Quick Contact</div></a></li>
+                                                            <li><a href="widgets.html"><div>Tags Cloud</div></a></li>
+                                                            <li><a href="widgets.html"><div>Video Embeds</div></a></li>
+                                                            <li><a href="widgets.html"><div>Raw Text/HTML</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#"><div><i class="icon-umbrella"></i>Headers</div></a>
+                                                        <ul>
+                                                            <li><a href="header-light.html"><div>Light Version</div></a></li>
+                                                            <li><a href="header-dark.html"><div>Dark Version</div></a></li>
+                                                            <li><a href="header-transparent.html"><div>Transparent</div></a></li>
+                                                            <li><a href="header-semi-transparent.html"><div>Semi Transparent</div></a>
+                                                                <ul>
+                                                                    <li><a href="header-semi-transparent.html"><div>Light Version</div></a></li>
+                                                                    <li><a href="header-semi-transparent-dark.html"><div>Dark Version</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="header-side-left.html"><div>Left Side Header</div></a>
+                                                                <ul>
+                                                                    <li><a href="header-side-left.html"><div>Fixed Position</div></a></li>
+                                                                    <li><a href="header-side-left-open.html"><div>OnClick Open</div></a></li>
+                                                                    <li><a href="header-side-left-open-push.html"><div>Push Content</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="header-side-right.html"><div>Right Side Header</div></a>
+                                                                <ul>
+                                                                    <li><a href="header-side-right.html"><div>Fixed Position</div></a></li>
+                                                                    <li><a href="header-side-right-open.html"><div>OnClick Open</div></a></li>
+                                                                    <li><a href="header-side-right-open-push.html"><div>Push Content</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="header-floating.html"><div>Floating Version</div></a></li>
+                                                            <li><a href="static-sticky.html"><div>Static Sticky</div></a></li>
+                                                            <li><a href="responsive-sticky.html"><div>Responsive Sticky</div></a></li>
+                                                            <li><a href="logo-changer.html"><div>Alternate Logos</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="side-panel.html"><div><i class="icon-line-layout"></i>Side Panel</div></a>
+                                                        <ul>
+                                                            <li><a href="side-panel-left-overlay.html"><div>Left Overlay</div></a></li>
+                                                            <li><a href="side-panel-left-push.html"><div>Left Push</div></a></li>
+                                                            <li><a href="side-panel-right-overlay.html"><div>Right Overlay</div></a></li>
+                                                            <li><a href="side-panel.html"><div>Right Push</div></a></li>
+                                                            <li><a href="side-panel-light.html"><div>Light Background</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#"><div><i class="icon-align-justify2"></i>Menu Styles</div></a>
+                                                        <ul>
+                                                            <li><a href="header-light.html"><div>Menu - Style 1</div></a></li>
+                                                            <li><a href="menu-2.html"><div>Menu - Style 2</div></a></li>
+                                                            <li><a href="menu-3.html"><div>Menu - Style 3</div></a></li>
+                                                            <li><a href="menu-4.html"><div>Menu - Style 4</div></a></li>
+                                                            <li><a href="menu-5.html"><div>Menu - Style 5</div></a></li>
+                                                            <li><a href="menu-6.html"><div>Menu - Style 6</div></a></li>
+                                                            <li><a href="menu-7.html"><div>Menu - Style 7</div></a></li>
+                                                            <li><a href="menu-8.html"><div>Menu - Style 8</div></a></li>
+                                                            <li><a href="menu-9.html"><div>Menu - Style 9</div></a></li>
+                                                            <li><a href="menu-10.html"><div>Menu - Overlay</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#"><div><i class="icon-ok-sign"></i>Page Titles</div></a>
+                                                        <ul>
+                                                            <li><a href="page.html"><div>Left Align</div></a></li>
+                                                            <li><a href="page-title-right.html"><div>Right Align</div></a></li>
+                                                            <li><a href="page-title-center.html"><div>Center Align</div></a></li>
+                                                            <li><a href="page-titledark.html"><div>Dark Style</div></a></li>
+                                                            <li><a href="page-title-pattern.html"><div>Pattern Background</div></a></li>
+                                                            <li><a href="page-title-parallax.html"><div>Parallax Background</div></a>
+                                                                <ul>
+                                                                    <li><a href="page-title-parallax.html"><div>Default Header</div></a></li>
+                                                                    <li><a href="page-title-parallax-header.html"><div>Transparent Header</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="page-title-video.html"><div>HTML5 Video</div></a></li>
+                                                            <li><a href="page-title-nobg.html"><div>No Background</div></a></li>
+                                                            <li><a href="page-title-mini.html"><div>Mini Version</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="contact.html"><div><i class="icon-envelope-alt"></i>Contact Pages</div></a>
+                                                        <ul>
+                                                            <li><a href="contact.html">Contact 1</a></li>
+                                                            <li><a href="contact-2.html">Contact 2</a></li>
+                                                            <li><a href="contact-3.html">Contact 3</a></li>
+                                                            <li><a href="contact-4.html">Contact 4</a></li>
+                                                            <li><a href="contact-5.html">Contact 5</a></li>
+                                                            <li><a href="contact-6.html">Contact 6</a></li>
+                                                            <li><a href="contact-7.html">Contact 7</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#footer" data-scrollto="#footer"><div><i class="icon-th"></i>Footers</div></a>
+                                                        <ul>
+                                                            <li><a href="sticky-footer.html"><div>Sticky Footer</div></a></li>
+                                                            <li><a href="#footer" data-scrollto="#footer"><div>Footer - Layout 1</div></a></li>
+                                                            <li><a href="footer-2.html#footer"><div>Footer - Layout 2</div></a></li>
+                                                            <li><a href="footer-3.html#footer"><div>Footer - Layout 3</div></a></li>
+                                                            <li><a href="footer-4.html#footer"><div>Footer - Layout 4</div></a></li>
+                                                            <li><a href="footer-5.html#footer"><div>Footer - Layout 5</div></a></li>
+                                                            <li><a href="footer-6.html#footer"><div>Footer - Layout 6</div></a></li>
+                                                            <li><a href="footer-7.html#footer"><div>Footer - Layout 7</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#"><div><i class="icon-calendar3"></i>Events</div></a>
+                                                        <ul>
+                                                            <li><a href="events-calendar.html"><div>Full Width Calendar</div></a></li>
+                                                            <li><a href="events-list.html"><div>Events List</div></a>
+                                                                <ul>
+                                                                    <li><a href="events-list.html"><div>Right Sidebar</div></a></li>
+                                                                    <li><a href="events-list-left-sidebar.html"><div>Left Sidebar</div></a></li>
+                                                                    <li><a href="events-list-both-sidebar.html"><div>Both Sidebar</div></a></li>
+                                                                    <li><a href="events-list-fullwidth.html"><div>Full Width</div></a></li>
+                                                                    <li><a href="events-list-parallax.html"><div>Parallax List</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="event-single.html"><div>Single Event</div></a>
+                                                                <ul>
+                                                                    <li><a href="event-single-right-sidebar.html"><div>Right Sidebar</div></a></li>
+                                                                    <li><a href="event-single-left-sidebar.html"><div>Left Sidebar</div></a></li>
+                                                                    <li><a href="event-single-both-sidebar.html"><div>Both Sidebar</div></a></li>
+                                                                    <li><a href="event-single.html"><div>Full Width</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="event-single-full-width-image.html"><div>Single Event - Full</div></a>
+                                                                <ul>
+                                                                    <li><a href="event-single-full-width-image.html"><div>Parallax Image</div></a></li>
+                                                                    <li><a href="event-single-full-width-map.html"><div>Google Map</div></a></li>
+                                                                    <li><a href="event-single-full-width-slider.html"><div>Slider Gallery</div></a></li>
+                                                                    <li><a href="event-single-full-width-video.html"><div>HTML5 Video</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="modal-onload.html"><div><i class="icon-line-expand"></i>Modal OnLoad</div></a>
+                                                        <ul>
+                                                            <li><a href="modal-onload.html"><div>Simple Layout</div></a></li>
+                                                            <li><a href="modal-onload-iframe.html"><div>Video iFrame</div></a></li>
+                                                            <li><a href="modal-onload-subscribe.html"><div>Subscription Form</div></a></li>
+                                                            <li><a href="modal-onload-common-height.html"><div>Common Height</div></a></li>
+                                                            <li><a href="modal-onload-cookie.html"><div>Cookies Enabled</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="coming-soon.html"><div><i class="icon-time"></i>Coming Soon</div></a>
+                                                        <ul>
+                                                            <li><a href="coming-soon.html"><div>Simple Layout</div></a></li>
+                                                            <li><a href="coming-soon-2.html"><div>Parallax Image</div></a></li>
+                                                            <li><a href="coming-soon-3.html"><div>HTML5 Video</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#"><div><i class="icon-adjust"></i>Dark Version</div></a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+
+                                        <!-- Top Cart
+                                        ============================================= -->
+                                        <div id="top-cart">
+                                            <a href="#" id="top-cart-trigger"><i class="icon-shopping-cart"></i><span>5</span></a>
+                                            <div class="top-cart-content">
+                                                <div class="top-cart-title">
+                                                    <h4>Shopping Cart</h4>
+                                                </div>
+                                                <div class="top-cart-items">
+                                                    <div class="top-cart-item clearfix">
+                                                        <div class="top-cart-item-image">
+                                                            <a href="#"><img src="images/shop/small/1.jpg" alt="Blue Round-Neck Tshirt" /></a>
+                                                        </div>
+                                                        <div class="top-cart-item-desc">
+                                                            <a href="#">Blue Round-Neck Tshirt</a>
+                                                            <span class="top-cart-item-price">$19.99</span>
+                                                            <span class="top-cart-item-quantity">x 2</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="top-cart-item clearfix">
+                                                        <div class="top-cart-item-image">
+                                                            <a href="#"><img src="images/shop/small/6.jpg" alt="Light Blue Denim Dress" /></a>
+                                                        </div>
+                                                        <div class="top-cart-item-desc">
+                                                            <a href="#">Light Blue Denim Dress</a>
+                                                            <span class="top-cart-item-price">$24.99</span>
+                                                            <span class="top-cart-item-quantity">x 3</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="top-cart-action clearfix">
+                                                    <span class="fleft top-checkout-price">$114.95</span>
+                                                    <button class="button button-3d button-small nomargin fright">View Cart</button>
+                                                </div>
+                                            </div>
+                                        </div><!-- #top-cart end -->
+
+                                        <!-- Top Search
+                                        ============================================= -->
+                                        <div id="top-search">
+                                            <a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
+                                            <form action="search.html" method="get">
+                                                <input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
+                                            </form>
+                                        </div><!-- #top-search end -->
+
+                                    </nav><!-- #primary-menu end -->
+
+                                </div>
+
+                            </div>
+
+                        </header>
+
+                        <div class=" center row leftpadding-lg leftmargin-lg">
+
+                            <div class="col_full topmargin-lg  center">
+                                <a href="#title" class="button button-desc button-border button-rounded center"><h1 class="center " style="text-align: center !important ; Color: white">Long Term <b>Technology Acceleration</b><br> for Web Products </h1><div>Prowduct Owner?</div><p></p></a>
+                            </div>
+<!--
+                            <div class="col_one_quarter topmargin-lg rightmargin-lg pull-right " style="background-image: url('assets/tech.jpg'); background-position: center center; background-size: cover;background-repeat: no-repeat;width: 15vw; padding: 8%;box-shadow: inset 0 0 50px 30px #000; border-radius: 50%;" ></div>
+                        --></div>
+                        <div class="row topmargin-lg">
+                            <div class="col_one_third" style="nomargin nopadding" >   <a href="#title" class="button button-desc button-border button-rounded center"><div>World Class<br> Delivery & Implementation<span>BDD- TDD <br> RoR - JS - Openstack <br> 12Factor - Heroku - AWS</span></div></a></div>
+                            <div class="col_one_third" style="nomargin nopadding" >   <a href="#title" class="button button-desc button-border button-rounded center"><div>Pragmatic Product<br>Engineering & Design<span>Complete UI/UX Support <br> Transparent Continous Delivery <br> Agile Practices - Lean & Flexible</span></div></a></div>
+
+                            <div class="col_one_third col_last" style="nomargin nopadding" >   <a href="#title" class="button button-desc button-border button-rounded center"><div>Business Intelligence &<br> Growth Acceleration<span>Scaling Support <br> Quality & Operations Assurance <br> Seamless BA/BI interface</span></div></a></div>
+
+                            </div>
+                    </div>
+
+                    <!--
+
+                        The `id` attribute of the step element is used to identify it in the URL, but it's optional.
+                        If it is not defined, it will get a default value of `step-N` where N is a number of slide.
+
+                        So in the example below it'll be `step-2`.
+
+                        The hash part of the url when this step is active will be `#/step-2`.
+
+                        You can also use `#step-2` in a link, to point directly to this particular step.
+
+                        Please note, that while `#/step-2` (with slash) would also work in a link it's not recommended.
+                        Using classic `id`-based links like `#step-2` makes these links usable also in fallback mode.
+
+                 <!--   &ndash;&gt;
+                    <div class="step slide" data-x="0" data-y="-1500">
+                        <q>Don’t you think that presentations given <strong>in modern browsers</strong> shouldn’t <strong>copy the limits</strong> of ‘classic’ slide decks?</q>
+                    </div>
+
+                    <div class="step slide" data-x="2000" data-y="-1500">
+                        <q>Would you like to <strong>impress your audience</strong> with <strong>stunning visualization</strong> of your talk?</q>
+                    </div>
+
+                 -->   <!--
+
+                        This is an example of step element being scaled.
+
+                        Again, we use a `data-` attribute, this time it's `data-scale="4"`, so it means that this
+                        element will be 4 times larger than the others.
+                        From presentation and transitions point of view it means, that it will have to be scaled
+                        down (4 times) to make it back to its correct size.
+
+                    -->
+                    <div id="title" class="step" data-x="-30000" data-y="3000" data-rotate="90" data-scale="8">
+                        <header id="header" class="" style="background:transparent !important;position: fixed; top: 0px; width:100%; z-index: 1000;">
+
+                            <div id="header-wrap" style="background:transparent !important">
+
+                                <div class="container clearfix">
+
+                                    <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+                                    <!-- Logo
+                                    ============================================= -->
+                                    <div href="#home"  id="logo">
+                                        <a href="#home" class="standard-logo" data-dark-logo="assets/logo.png"><img href="#home"  src="assets/logo.png" alt="IdeaPortal Logo"></a>
+                                        <a href="#home" class="retina-logo" data-dark-logo="assets/logo.png"><img src="assets/logo.png" alt="IdeaPortal Logo"></a>
+                                    </div><!-- #logo end -->
+
+                                    <!-- Primary Navigation
+                                    ============================================= -->
+                                    <nav id="primary-menu">
+
+                                        <ul>
+                                            <li><a href="index.html"><div>Home</div></a>
+
+                                            </li>
+                                            <li><a href="#"><div>Features</div></a>
+                                                <ul>
+                                                    <li><a href="#"><div><i class="icon-stack"></i>Sliders</div></a>
+                                                        <ul>
+                                                            <li><a href="slider-revolution.html"><div>Revolution Slider</div></a>
+                                                                <ul>
+                                                                    <li><a href="slider-revolution.html"><div>Full Screen</div></a></li>
+                                                                    <li><a href="slider-revolution-fullwidth.html"><div>Full Width</div></a></li>
+                                                                    <li><a href="slider-revolution-kenburns.html"><div>Kenburns Effect</div></a></li>
+                                                                    <li><a href="slider-revolution-html5-videos.html"><div>HTML5 Video</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="slider-canvas.html"><div>Canvas Slider</div></a>
+                                                                <ul>
+                                                                    <li><a href="slider-canvas.html"><div>Full Width</div></a></li>
+                                                                    <li><a href="slider-canvas-fade.html"><div>Fade Transition</div></a></li>
+                                                                    <li><a href="slider-canvas-autoplay.html"><div>Autoplay Feature</div></a></li>
+                                                                    <li><a href="slider-canvas-video-event.html"><div>Custom Video Event</div></a></li>
+                                                                    <li><a href="slider-canvas-pagination.html"><div>Pagination Navigation</div></a></li>
+                                                                    <li><a href="slider-canvas-3.html"><div>3 Columns</div></a></li>
+                                                                    <li><a href="slider-canvas-4.html"><div>4 Columns</div></a></li>
+                                                                    <li><a href="slider-canvas-5.html"><div>5 Columns</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="slider-flex.html"><div>Flex Slider</div></a>
+                                                                <ul>
+                                                                    <li><a href="slider-flex.html"><div>Default Layout</div></a></li>
+                                                                    <li><a href="slider-flex-thumbs.html"><div>with Thumbs</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="slider-owl.html"><div>Owl Slider</div></a>
+                                                                <ul>
+                                                                    <li><a href="slider-owl-full.html"><div>Full Width</div></a></li>
+                                                                    <li><a href="slider-owl.html"><div>Boxed Width</div></a></li>
+                                                                    <li><a href="slider-owl-videos.html"><div>Video Slider</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="static-parallax.html"><div>Static Media</div></a>
+                                                                <ul>
+                                                                    <li><a href="static-parallax.html"><div>Static - Parallax</div></a></li>
+                                                                    <li><a href="static-image.html"><div>Static - Image</div></a></li>
+                                                                    <li><a href="static-thumbs-grid.html"><div>Static - Thumb Gallery</div></a></li>
+                                                                    <li><a href="static-html5-video.html"><div>Static - HTML5 Video</div></a></li>
+                                                                    <li><a href="static-embed-video.html"><div>Static - Embedded Video</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="slider-camera.html"><div>Camera Slider</div></a></li>
+                                                            <li><a href="slider-elastic.html"><div>Elastic Slider</div></a></li>
+                                                            <li><a href="slider-nivo.html"><div>Nivo Slider</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="widgets.html"><div><i class="icon-gift"></i>Widgets</div></a>
+                                                        <ul>
+                                                            <li><a href="widgets.html"><div>Links</div></a></li>
+                                                            <li><a href="widgets.html"><div>Flickr Photostream</div></a></li>
+                                                            <li><a href="widgets.html"><div>Dribbble Shots</div></a></li>
+                                                            <li><a href="widgets.html"><div>Instagram Feed</div></a></li>
+                                                            <li><a href="widgets.html"><div>Posts List</div></a></li>
+                                                            <li><a href="widgets.html"><div>Twitter Feed</div></a></li>
+                                                            <li><a href="widgets.html"><div>Tabbed Widgets</div></a></li>
+                                                            <li><a href="widgets.html"><div>Carousel</div></a></li>
+                                                            <li><a href="widgets.html"><div>Subscribers</div></a></li>
+                                                            <li><a href="widgets.html"><div>Social Icons</div></a></li>
+                                                            <li><a href="widgets.html"><div>Testimonials</div></a></li>
+                                                            <li><a href="widgets.html"><div>Quick Contact</div></a></li>
+                                                            <li><a href="widgets.html"><div>Tags Cloud</div></a></li>
+                                                            <li><a href="widgets.html"><div>Video Embeds</div></a></li>
+                                                            <li><a href="widgets.html"><div>Raw Text/HTML</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#"><div><i class="icon-umbrella"></i>Headers</div></a>
+                                                        <ul>
+                                                            <li><a href="header-light.html"><div>Light Version</div></a></li>
+                                                            <li><a href="header-dark.html"><div>Dark Version</div></a></li>
+                                                            <li><a href="header-transparent.html"><div>Transparent</div></a></li>
+                                                            <li><a href="header-semi-transparent.html"><div>Semi Transparent</div></a>
+                                                                <ul>
+                                                                    <li><a href="header-semi-transparent.html"><div>Light Version</div></a></li>
+                                                                    <li><a href="header-semi-transparent-dark.html"><div>Dark Version</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="header-side-left.html"><div>Left Side Header</div></a>
+                                                                <ul>
+                                                                    <li><a href="header-side-left.html"><div>Fixed Position</div></a></li>
+                                                                    <li><a href="header-side-left-open.html"><div>OnClick Open</div></a></li>
+                                                                    <li><a href="header-side-left-open-push.html"><div>Push Content</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="header-side-right.html"><div>Right Side Header</div></a>
+                                                                <ul>
+                                                                    <li><a href="header-side-right.html"><div>Fixed Position</div></a></li>
+                                                                    <li><a href="header-side-right-open.html"><div>OnClick Open</div></a></li>
+                                                                    <li><a href="header-side-right-open-push.html"><div>Push Content</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="header-floating.html"><div>Floating Version</div></a></li>
+                                                            <li><a href="static-sticky.html"><div>Static Sticky</div></a></li>
+                                                            <li><a href="responsive-sticky.html"><div>Responsive Sticky</div></a></li>
+                                                            <li><a href="logo-changer.html"><div>Alternate Logos</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="side-panel.html"><div><i class="icon-line-layout"></i>Side Panel</div></a>
+                                                        <ul>
+                                                            <li><a href="side-panel-left-overlay.html"><div>Left Overlay</div></a></li>
+                                                            <li><a href="side-panel-left-push.html"><div>Left Push</div></a></li>
+                                                            <li><a href="side-panel-right-overlay.html"><div>Right Overlay</div></a></li>
+                                                            <li><a href="side-panel.html"><div>Right Push</div></a></li>
+                                                            <li><a href="side-panel-light.html"><div>Light Background</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#"><div><i class="icon-align-justify2"></i>Menu Styles</div></a>
+                                                        <ul>
+                                                            <li><a href="header-light.html"><div>Menu - Style 1</div></a></li>
+                                                            <li><a href="menu-2.html"><div>Menu - Style 2</div></a></li>
+                                                            <li><a href="menu-3.html"><div>Menu - Style 3</div></a></li>
+                                                            <li><a href="menu-4.html"><div>Menu - Style 4</div></a></li>
+                                                            <li><a href="menu-5.html"><div>Menu - Style 5</div></a></li>
+                                                            <li><a href="menu-6.html"><div>Menu - Style 6</div></a></li>
+                                                            <li><a href="menu-7.html"><div>Menu - Style 7</div></a></li>
+                                                            <li><a href="menu-8.html"><div>Menu - Style 8</div></a></li>
+                                                            <li><a href="menu-9.html"><div>Menu - Style 9</div></a></li>
+                                                            <li><a href="menu-10.html"><div>Menu - Overlay</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#"><div><i class="icon-ok-sign"></i>Page Titles</div></a>
+                                                        <ul>
+                                                            <li><a href="page.html"><div>Left Align</div></a></li>
+                                                            <li><a href="page-title-right.html"><div>Right Align</div></a></li>
+                                                            <li><a href="page-title-center.html"><div>Center Align</div></a></li>
+                                                            <li><a href="page-titledark.html"><div>Dark Style</div></a></li>
+                                                            <li><a href="page-title-pattern.html"><div>Pattern Background</div></a></li>
+                                                            <li><a href="page-title-parallax.html"><div>Parallax Background</div></a>
+                                                                <ul>
+                                                                    <li><a href="page-title-parallax.html"><div>Default Header</div></a></li>
+                                                                    <li><a href="page-title-parallax-header.html"><div>Transparent Header</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="page-title-video.html"><div>HTML5 Video</div></a></li>
+                                                            <li><a href="page-title-nobg.html"><div>No Background</div></a></li>
+                                                            <li><a href="page-title-mini.html"><div>Mini Version</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="contact.html"><div><i class="icon-envelope-alt"></i>Contact Pages</div></a>
+                                                        <ul>
+                                                            <li><a href="contact.html">Contact 1</a></li>
+                                                            <li><a href="contact-2.html">Contact 2</a></li>
+                                                            <li><a href="contact-3.html">Contact 3</a></li>
+                                                            <li><a href="contact-4.html">Contact 4</a></li>
+                                                            <li><a href="contact-5.html">Contact 5</a></li>
+                                                            <li><a href="contact-6.html">Contact 6</a></li>
+                                                            <li><a href="contact-7.html">Contact 7</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#footer" data-scrollto="#footer"><div><i class="icon-th"></i>Footers</div></a>
+                                                        <ul>
+                                                            <li><a href="sticky-footer.html"><div>Sticky Footer</div></a></li>
+                                                            <li><a href="#footer" data-scrollto="#footer"><div>Footer - Layout 1</div></a></li>
+                                                            <li><a href="footer-2.html#footer"><div>Footer - Layout 2</div></a></li>
+                                                            <li><a href="footer-3.html#footer"><div>Footer - Layout 3</div></a></li>
+                                                            <li><a href="footer-4.html#footer"><div>Footer - Layout 4</div></a></li>
+                                                            <li><a href="footer-5.html#footer"><div>Footer - Layout 5</div></a></li>
+                                                            <li><a href="footer-6.html#footer"><div>Footer - Layout 6</div></a></li>
+                                                            <li><a href="footer-7.html#footer"><div>Footer - Layout 7</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#"><div><i class="icon-calendar3"></i>Events</div></a>
+                                                        <ul>
+                                                            <li><a href="events-calendar.html"><div>Full Width Calendar</div></a></li>
+                                                            <li><a href="events-list.html"><div>Events List</div></a>
+                                                                <ul>
+                                                                    <li><a href="events-list.html"><div>Right Sidebar</div></a></li>
+                                                                    <li><a href="events-list-left-sidebar.html"><div>Left Sidebar</div></a></li>
+                                                                    <li><a href="events-list-both-sidebar.html"><div>Both Sidebar</div></a></li>
+                                                                    <li><a href="events-list-fullwidth.html"><div>Full Width</div></a></li>
+                                                                    <li><a href="events-list-parallax.html"><div>Parallax List</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="event-single.html"><div>Single Event</div></a>
+                                                                <ul>
+                                                                    <li><a href="event-single-right-sidebar.html"><div>Right Sidebar</div></a></li>
+                                                                    <li><a href="event-single-left-sidebar.html"><div>Left Sidebar</div></a></li>
+                                                                    <li><a href="event-single-both-sidebar.html"><div>Both Sidebar</div></a></li>
+                                                                    <li><a href="event-single.html"><div>Full Width</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="event-single-full-width-image.html"><div>Single Event - Full</div></a>
+                                                                <ul>
+                                                                    <li><a href="event-single-full-width-image.html"><div>Parallax Image</div></a></li>
+                                                                    <li><a href="event-single-full-width-map.html"><div>Google Map</div></a></li>
+                                                                    <li><a href="event-single-full-width-slider.html"><div>Slider Gallery</div></a></li>
+                                                                    <li><a href="event-single-full-width-video.html"><div>HTML5 Video</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="modal-onload.html"><div><i class="icon-line-expand"></i>Modal OnLoad</div></a>
+                                                        <ul>
+                                                            <li><a href="modal-onload.html"><div>Simple Layout</div></a></li>
+                                                            <li><a href="modal-onload-iframe.html"><div>Video iFrame</div></a></li>
+                                                            <li><a href="modal-onload-subscribe.html"><div>Subscription Form</div></a></li>
+                                                            <li><a href="modal-onload-common-height.html"><div>Common Height</div></a></li>
+                                                            <li><a href="modal-onload-cookie.html"><div>Cookies Enabled</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="coming-soon.html"><div><i class="icon-time"></i>Coming Soon</div></a>
+                                                        <ul>
+                                                            <li><a href="coming-soon.html"><div>Simple Layout</div></a></li>
+                                                            <li><a href="coming-soon-2.html"><div>Parallax Image</div></a></li>
+                                                            <li><a href="coming-soon-3.html"><div>HTML5 Video</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#"><div><i class="icon-adjust"></i>Dark Version</div></a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+
+                                        <!-- Top Cart
+                                        ============================================= -->
+                                        <div id="top-cart">
+                                            <a href="#" id="top-cart-trigger"><i class="icon-shopping-cart"></i><span>5</span></a>
+                                            <div class="top-cart-content">
+                                                <div class="top-cart-title">
+                                                    <h4>Shopping Cart</h4>
+                                                </div>
+                                                <div class="top-cart-items">
+                                                    <div class="top-cart-item clearfix">
+                                                        <div class="top-cart-item-image">
+                                                            <a href="#"><img src="images/shop/small/1.jpg" alt="Blue Round-Neck Tshirt" /></a>
+                                                        </div>
+                                                        <div class="top-cart-item-desc">
+                                                            <a href="#">Blue Round-Neck Tshirt</a>
+                                                            <span class="top-cart-item-price">$19.99</span>
+                                                            <span class="top-cart-item-quantity">x 2</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="top-cart-item clearfix">
+                                                        <div class="top-cart-item-image">
+                                                            <a href="#"><img src="images/shop/small/6.jpg" alt="Light Blue Denim Dress" /></a>
+                                                        </div>
+                                                        <div class="top-cart-item-desc">
+                                                            <a href="#">Light Blue Denim Dress</a>
+                                                            <span class="top-cart-item-price">$24.99</span>
+                                                            <span class="top-cart-item-quantity">x 3</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="top-cart-action clearfix">
+                                                    <span class="fleft top-checkout-price">$114.95</span>
+                                                    <button class="button button-3d button-small nomargin fright">View Cart</button>
+                                                </div>
+                                            </div>
+                                        </div><!-- #top-cart end -->
+
+                                        <!-- Top Search
+                                        ============================================= -->
+                                        <div id="top-search">
+                                            <a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
+                                            <form action="search.html" method="get">
+                                                <input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
+                                            </form>
+                                        </div><!-- #top-search end -->
+
+                                    </nav><!-- #primary-menu end -->
+
+                                </div>
+
+                            </div>
+
+                        </header>
+
+                        <span class="try">then you should try</span>
+                        <h1>impress.js<sup>*</sup></h1>
+                        <span class="footnote"><sup>*</sup> no rhyme intended</span>
+                    </div>
+
+                    <!--
+
+                        This element introduces rotation.
+
+                        Notation shouldn't be a surprise. We use `data-rotate="90"` attribute, meaning that this
+                        element should be rotated by 90 degrees clockwise.
+
+                    -->
+                    <div id="its" class="step" data-x="1500" data-y="3000" data-rotate="90" data-scale="5">
+                        <p>It’s a <strong>presentation tool</strong> <br/>
+                            inspired by the idea behind <a href="http://prezi.com">prezi.com</a> <br/>
+                            and based on the <strong>power of CSS3 transforms and transitions</strong> in modern browsers.</p>
+                    </div>
+
+                    <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
+                        <p>visualize your <b>big</b> <span class="thoughts">thoughts</span></p>
+                    </div>
+
+                    <!--
+
+                        And now it gets really exciting! We move into third dimension!
+
+                        Along with `data-x` and `data-y`, you can define the position on third (Z) axis, with
+                        `data-z`. In the example below we use `data-z="-3000"` meaning that element should be
+                        positioned far away from us (by 3000px).
+
+                    -->
+                    <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+                        <header id="header" class="full-header transparent-header" style="position: fixed; top: 0px; width:100%; z-index: 1000;">
+
+                            <div id="header-wrap">
+
+                                <div class="container clearfix">
+
+                                    <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+                                    <!-- Logo
+                                    ============================================= -->
+                                    <div href="#home"  id="logo">
+                                        <a href="#home" class="standard-logo" data-dark-logo="assets/logo.png"><img href="#home"  src="assets/logo.png" alt="IdeaPortal Logo"></a>
+                                        <a href="#home" class="retina-logo" data-dark-logo="assets/logo.png"><img src="assets/logo.png" alt="IdeaPortal Logo"></a>
+                                    </div><!-- #logo end -->
+
+                                    <!-- Primary Navigation
+                                    ============================================= -->
+                                    <nav id="primary-menu">
+
+                                        <ul>
+                                            <li><a href="index.html"><div>Home</div></a>
+
+                                            </li>
+                                            <li><a href="#"><div>Features</div></a>
+                                                <ul>
+                                                    <li><a href="#"><div><i class="icon-stack"></i>Sliders</div></a>
+                                                        <ul>
+                                                            <li><a href="slider-revolution.html"><div>Revolution Slider</div></a>
+                                                                <ul>
+                                                                    <li><a href="slider-revolution.html"><div>Full Screen</div></a></li>
+                                                                    <li><a href="slider-revolution-fullwidth.html"><div>Full Width</div></a></li>
+                                                                    <li><a href="slider-revolution-kenburns.html"><div>Kenburns Effect</div></a></li>
+                                                                    <li><a href="slider-revolution-html5-videos.html"><div>HTML5 Video</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="slider-canvas.html"><div>Canvas Slider</div></a>
+                                                                <ul>
+                                                                    <li><a href="slider-canvas.html"><div>Full Width</div></a></li>
+                                                                    <li><a href="slider-canvas-fade.html"><div>Fade Transition</div></a></li>
+                                                                    <li><a href="slider-canvas-autoplay.html"><div>Autoplay Feature</div></a></li>
+                                                                    <li><a href="slider-canvas-video-event.html"><div>Custom Video Event</div></a></li>
+                                                                    <li><a href="slider-canvas-pagination.html"><div>Pagination Navigation</div></a></li>
+                                                                    <li><a href="slider-canvas-3.html"><div>3 Columns</div></a></li>
+                                                                    <li><a href="slider-canvas-4.html"><div>4 Columns</div></a></li>
+                                                                    <li><a href="slider-canvas-5.html"><div>5 Columns</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="slider-flex.html"><div>Flex Slider</div></a>
+                                                                <ul>
+                                                                    <li><a href="slider-flex.html"><div>Default Layout</div></a></li>
+                                                                    <li><a href="slider-flex-thumbs.html"><div>with Thumbs</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="slider-owl.html"><div>Owl Slider</div></a>
+                                                                <ul>
+                                                                    <li><a href="slider-owl-full.html"><div>Full Width</div></a></li>
+                                                                    <li><a href="slider-owl.html"><div>Boxed Width</div></a></li>
+                                                                    <li><a href="slider-owl-videos.html"><div>Video Slider</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="static-parallax.html"><div>Static Media</div></a>
+                                                                <ul>
+                                                                    <li><a href="static-parallax.html"><div>Static - Parallax</div></a></li>
+                                                                    <li><a href="static-image.html"><div>Static - Image</div></a></li>
+                                                                    <li><a href="static-thumbs-grid.html"><div>Static - Thumb Gallery</div></a></li>
+                                                                    <li><a href="static-html5-video.html"><div>Static - HTML5 Video</div></a></li>
+                                                                    <li><a href="static-embed-video.html"><div>Static - Embedded Video</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="slider-camera.html"><div>Camera Slider</div></a></li>
+                                                            <li><a href="slider-elastic.html"><div>Elastic Slider</div></a></li>
+                                                            <li><a href="slider-nivo.html"><div>Nivo Slider</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="widgets.html"><div><i class="icon-gift"></i>Widgets</div></a>
+                                                        <ul>
+                                                            <li><a href="widgets.html"><div>Links</div></a></li>
+                                                            <li><a href="widgets.html"><div>Flickr Photostream</div></a></li>
+                                                            <li><a href="widgets.html"><div>Dribbble Shots</div></a></li>
+                                                            <li><a href="widgets.html"><div>Instagram Feed</div></a></li>
+                                                            <li><a href="widgets.html"><div>Posts List</div></a></li>
+                                                            <li><a href="widgets.html"><div>Twitter Feed</div></a></li>
+                                                            <li><a href="widgets.html"><div>Tabbed Widgets</div></a></li>
+                                                            <li><a href="widgets.html"><div>Carousel</div></a></li>
+                                                            <li><a href="widgets.html"><div>Subscribers</div></a></li>
+                                                            <li><a href="widgets.html"><div>Social Icons</div></a></li>
+                                                            <li><a href="widgets.html"><div>Testimonials</div></a></li>
+                                                            <li><a href="widgets.html"><div>Quick Contact</div></a></li>
+                                                            <li><a href="widgets.html"><div>Tags Cloud</div></a></li>
+                                                            <li><a href="widgets.html"><div>Video Embeds</div></a></li>
+                                                            <li><a href="widgets.html"><div>Raw Text/HTML</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#"><div><i class="icon-umbrella"></i>Headers</div></a>
+                                                        <ul>
+                                                            <li><a href="header-light.html"><div>Light Version</div></a></li>
+                                                            <li><a href="header-dark.html"><div>Dark Version</div></a></li>
+                                                            <li><a href="header-transparent.html"><div>Transparent</div></a></li>
+                                                            <li><a href="header-semi-transparent.html"><div>Semi Transparent</div></a>
+                                                                <ul>
+                                                                    <li><a href="header-semi-transparent.html"><div>Light Version</div></a></li>
+                                                                    <li><a href="header-semi-transparent-dark.html"><div>Dark Version</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="header-side-left.html"><div>Left Side Header</div></a>
+                                                                <ul>
+                                                                    <li><a href="header-side-left.html"><div>Fixed Position</div></a></li>
+                                                                    <li><a href="header-side-left-open.html"><div>OnClick Open</div></a></li>
+                                                                    <li><a href="header-side-left-open-push.html"><div>Push Content</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="header-side-right.html"><div>Right Side Header</div></a>
+                                                                <ul>
+                                                                    <li><a href="header-side-right.html"><div>Fixed Position</div></a></li>
+                                                                    <li><a href="header-side-right-open.html"><div>OnClick Open</div></a></li>
+                                                                    <li><a href="header-side-right-open-push.html"><div>Push Content</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="header-floating.html"><div>Floating Version</div></a></li>
+                                                            <li><a href="static-sticky.html"><div>Static Sticky</div></a></li>
+                                                            <li><a href="responsive-sticky.html"><div>Responsive Sticky</div></a></li>
+                                                            <li><a href="logo-changer.html"><div>Alternate Logos</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="side-panel.html"><div><i class="icon-line-layout"></i>Side Panel</div></a>
+                                                        <ul>
+                                                            <li><a href="side-panel-left-overlay.html"><div>Left Overlay</div></a></li>
+                                                            <li><a href="side-panel-left-push.html"><div>Left Push</div></a></li>
+                                                            <li><a href="side-panel-right-overlay.html"><div>Right Overlay</div></a></li>
+                                                            <li><a href="side-panel.html"><div>Right Push</div></a></li>
+                                                            <li><a href="side-panel-light.html"><div>Light Background</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#"><div><i class="icon-align-justify2"></i>Menu Styles</div></a>
+                                                        <ul>
+                                                            <li><a href="header-light.html"><div>Menu - Style 1</div></a></li>
+                                                            <li><a href="menu-2.html"><div>Menu - Style 2</div></a></li>
+                                                            <li><a href="menu-3.html"><div>Menu - Style 3</div></a></li>
+                                                            <li><a href="menu-4.html"><div>Menu - Style 4</div></a></li>
+                                                            <li><a href="menu-5.html"><div>Menu - Style 5</div></a></li>
+                                                            <li><a href="menu-6.html"><div>Menu - Style 6</div></a></li>
+                                                            <li><a href="menu-7.html"><div>Menu - Style 7</div></a></li>
+                                                            <li><a href="menu-8.html"><div>Menu - Style 8</div></a></li>
+                                                            <li><a href="menu-9.html"><div>Menu - Style 9</div></a></li>
+                                                            <li><a href="menu-10.html"><div>Menu - Overlay</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#"><div><i class="icon-ok-sign"></i>Page Titles</div></a>
+                                                        <ul>
+                                                            <li><a href="page.html"><div>Left Align</div></a></li>
+                                                            <li><a href="page-title-right.html"><div>Right Align</div></a></li>
+                                                            <li><a href="page-title-center.html"><div>Center Align</div></a></li>
+                                                            <li><a href="page-titledark.html"><div>Dark Style</div></a></li>
+                                                            <li><a href="page-title-pattern.html"><div>Pattern Background</div></a></li>
+                                                            <li><a href="page-title-parallax.html"><div>Parallax Background</div></a>
+                                                                <ul>
+                                                                    <li><a href="page-title-parallax.html"><div>Default Header</div></a></li>
+                                                                    <li><a href="page-title-parallax-header.html"><div>Transparent Header</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="page-title-video.html"><div>HTML5 Video</div></a></li>
+                                                            <li><a href="page-title-nobg.html"><div>No Background</div></a></li>
+                                                            <li><a href="page-title-mini.html"><div>Mini Version</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="contact.html"><div><i class="icon-envelope-alt"></i>Contact Pages</div></a>
+                                                        <ul>
+                                                            <li><a href="contact.html">Contact 1</a></li>
+                                                            <li><a href="contact-2.html">Contact 2</a></li>
+                                                            <li><a href="contact-3.html">Contact 3</a></li>
+                                                            <li><a href="contact-4.html">Contact 4</a></li>
+                                                            <li><a href="contact-5.html">Contact 5</a></li>
+                                                            <li><a href="contact-6.html">Contact 6</a></li>
+                                                            <li><a href="contact-7.html">Contact 7</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#footer" data-scrollto="#footer"><div><i class="icon-th"></i>Footers</div></a>
+                                                        <ul>
+                                                            <li><a href="sticky-footer.html"><div>Sticky Footer</div></a></li>
+                                                            <li><a href="#footer" data-scrollto="#footer"><div>Footer - Layout 1</div></a></li>
+                                                            <li><a href="footer-2.html#footer"><div>Footer - Layout 2</div></a></li>
+                                                            <li><a href="footer-3.html#footer"><div>Footer - Layout 3</div></a></li>
+                                                            <li><a href="footer-4.html#footer"><div>Footer - Layout 4</div></a></li>
+                                                            <li><a href="footer-5.html#footer"><div>Footer - Layout 5</div></a></li>
+                                                            <li><a href="footer-6.html#footer"><div>Footer - Layout 6</div></a></li>
+                                                            <li><a href="footer-7.html#footer"><div>Footer - Layout 7</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#"><div><i class="icon-calendar3"></i>Events</div></a>
+                                                        <ul>
+                                                            <li><a href="events-calendar.html"><div>Full Width Calendar</div></a></li>
+                                                            <li><a href="events-list.html"><div>Events List</div></a>
+                                                                <ul>
+                                                                    <li><a href="events-list.html"><div>Right Sidebar</div></a></li>
+                                                                    <li><a href="events-list-left-sidebar.html"><div>Left Sidebar</div></a></li>
+                                                                    <li><a href="events-list-both-sidebar.html"><div>Both Sidebar</div></a></li>
+                                                                    <li><a href="events-list-fullwidth.html"><div>Full Width</div></a></li>
+                                                                    <li><a href="events-list-parallax.html"><div>Parallax List</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="event-single.html"><div>Single Event</div></a>
+                                                                <ul>
+                                                                    <li><a href="event-single-right-sidebar.html"><div>Right Sidebar</div></a></li>
+                                                                    <li><a href="event-single-left-sidebar.html"><div>Left Sidebar</div></a></li>
+                                                                    <li><a href="event-single-both-sidebar.html"><div>Both Sidebar</div></a></li>
+                                                                    <li><a href="event-single.html"><div>Full Width</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="event-single-full-width-image.html"><div>Single Event - Full</div></a>
+                                                                <ul>
+                                                                    <li><a href="event-single-full-width-image.html"><div>Parallax Image</div></a></li>
+                                                                    <li><a href="event-single-full-width-map.html"><div>Google Map</div></a></li>
+                                                                    <li><a href="event-single-full-width-slider.html"><div>Slider Gallery</div></a></li>
+                                                                    <li><a href="event-single-full-width-video.html"><div>HTML5 Video</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="modal-onload.html"><div><i class="icon-line-expand"></i>Modal OnLoad</div></a>
+                                                        <ul>
+                                                            <li><a href="modal-onload.html"><div>Simple Layout</div></a></li>
+                                                            <li><a href="modal-onload-iframe.html"><div>Video iFrame</div></a></li>
+                                                            <li><a href="modal-onload-subscribe.html"><div>Subscription Form</div></a></li>
+                                                            <li><a href="modal-onload-common-height.html"><div>Common Height</div></a></li>
+                                                            <li><a href="modal-onload-cookie.html"><div>Cookies Enabled</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="coming-soon.html"><div><i class="icon-time"></i>Coming Soon</div></a>
+                                                        <ul>
+                                                            <li><a href="coming-soon.html"><div>Simple Layout</div></a></li>
+                                                            <li><a href="coming-soon-2.html"><div>Parallax Image</div></a></li>
+                                                            <li><a href="coming-soon-3.html"><div>HTML5 Video</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#"><div><i class="icon-adjust"></i>Dark Version</div></a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+
+                                        <!-- Top Cart
+                                        ============================================= -->
+                                        <div id="top-cart">
+                                            <a href="#" id="top-cart-trigger"><i class="icon-shopping-cart"></i><span>5</span></a>
+                                            <div class="top-cart-content">
+                                                <div class="top-cart-title">
+                                                    <h4>Shopping Cart</h4>
+                                                </div>
+                                                <div class="top-cart-items">
+                                                    <div class="top-cart-item clearfix">
+                                                        <div class="top-cart-item-image">
+                                                            <a href="#"><img src="images/shop/small/1.jpg" alt="Blue Round-Neck Tshirt" /></a>
+                                                        </div>
+                                                        <div class="top-cart-item-desc">
+                                                            <a href="#">Blue Round-Neck Tshirt</a>
+                                                            <span class="top-cart-item-price">$19.99</span>
+                                                            <span class="top-cart-item-quantity">x 2</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="top-cart-item clearfix">
+                                                        <div class="top-cart-item-image">
+                                                            <a href="#"><img src="images/shop/small/6.jpg" alt="Light Blue Denim Dress" /></a>
+                                                        </div>
+                                                        <div class="top-cart-item-desc">
+                                                            <a href="#">Light Blue Denim Dress</a>
+                                                            <span class="top-cart-item-price">$24.99</span>
+                                                            <span class="top-cart-item-quantity">x 3</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="top-cart-action clearfix">
+                                                    <span class="fleft top-checkout-price">$114.95</span>
+                                                    <button class="button button-3d button-small nomargin fright">View Cart</button>
+                                                </div>
+                                            </div>
+                                        </div><!-- #top-cart end -->
+
+                                        <!-- Top Search
+                                        ============================================= -->
+                                        <div id="top-search">
+                                            <a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
+                                            <form action="search.html" method="get">
+                                                <input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
+                                            </form>
+                                        </div><!-- #top-search end -->
+
+                                    </nav><!-- #primary-menu end -->
+
+                                </div>
+
+                            </div>
+
+                        </header>
+
+                        <p>and <b>tiny</b> ideas</p>
+                    </div>
+
+                    <!--
+
+                        This step here doesn't introduce anything new when it comes to data attributes, but you
+                        should notice in the demo that some words of this text are being animated.
+                        It's a very basic CSS transition that is applied to the elements when this step element is
+                        reached.
+
+                        At the very beginning of the presentation all step elements are given the class of `future`.
+                        It means that they haven't been visited yet.
+
+                        When the presentation moves to given step `future` is changed to `present` class name.
+                        That's how animation on this step works - text moves when the step has `present` class.
+
+                        Finally when the step is left the `present` class is removed from the element and `past`
+                        class is added.
+
+                        So basically every step element has one of three classes: `future`, `present` and `past`.
+                        Only one current step has the `present` class.
+
+                    -->
+                    <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
+                        <header id="header" class="full-header transparent-header" style="position: fixed; top: 0px; width:100%; z-index: 1000;">
+
+                            <div id="header-wrap">
+
+                                <div class="container clearfix">
+
+                                    <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+                                    <!-- Logo
+                                    ============================================= -->
+                                    <div href="#home"  id="logo">
+                                        <a href="#home" class="standard-logo" data-dark-logo="assets/logo.png"><img href="#home"  src="assets/logo.png" alt="IdeaPortal Logo"></a>
+                                        <a href="#home" class="retina-logo" data-dark-logo="assets/logo.png"><img src="assets/logo.png" alt="IdeaPortal Logo"></a>
+                                    </div><!-- #logo end -->
+
+                                    <!-- Primary Navigation
+                                    ============================================= -->
+                                    <nav id="primary-menu">
+
+                                        <ul>
+                                            <li><a href="index.html"><div>Home</div></a>
+
+                                            </li>
+                                            <li><a href="#"><div>Features</div></a>
+                                                <ul>
+                                                    <li><a href="#"><div><i class="icon-stack"></i>Sliders</div></a>
+                                                        <ul>
+                                                            <li><a href="slider-revolution.html"><div>Revolution Slider</div></a>
+                                                                <ul>
+                                                                    <li><a href="slider-revolution.html"><div>Full Screen</div></a></li>
+                                                                    <li><a href="slider-revolution-fullwidth.html"><div>Full Width</div></a></li>
+                                                                    <li><a href="slider-revolution-kenburns.html"><div>Kenburns Effect</div></a></li>
+                                                                    <li><a href="slider-revolution-html5-videos.html"><div>HTML5 Video</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="slider-canvas.html"><div>Canvas Slider</div></a>
+                                                                <ul>
+                                                                    <li><a href="slider-canvas.html"><div>Full Width</div></a></li>
+                                                                    <li><a href="slider-canvas-fade.html"><div>Fade Transition</div></a></li>
+                                                                    <li><a href="slider-canvas-autoplay.html"><div>Autoplay Feature</div></a></li>
+                                                                    <li><a href="slider-canvas-video-event.html"><div>Custom Video Event</div></a></li>
+                                                                    <li><a href="slider-canvas-pagination.html"><div>Pagination Navigation</div></a></li>
+                                                                    <li><a href="slider-canvas-3.html"><div>3 Columns</div></a></li>
+                                                                    <li><a href="slider-canvas-4.html"><div>4 Columns</div></a></li>
+                                                                    <li><a href="slider-canvas-5.html"><div>5 Columns</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="slider-flex.html"><div>Flex Slider</div></a>
+                                                                <ul>
+                                                                    <li><a href="slider-flex.html"><div>Default Layout</div></a></li>
+                                                                    <li><a href="slider-flex-thumbs.html"><div>with Thumbs</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="slider-owl.html"><div>Owl Slider</div></a>
+                                                                <ul>
+                                                                    <li><a href="slider-owl-full.html"><div>Full Width</div></a></li>
+                                                                    <li><a href="slider-owl.html"><div>Boxed Width</div></a></li>
+                                                                    <li><a href="slider-owl-videos.html"><div>Video Slider</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="static-parallax.html"><div>Static Media</div></a>
+                                                                <ul>
+                                                                    <li><a href="static-parallax.html"><div>Static - Parallax</div></a></li>
+                                                                    <li><a href="static-image.html"><div>Static - Image</div></a></li>
+                                                                    <li><a href="static-thumbs-grid.html"><div>Static - Thumb Gallery</div></a></li>
+                                                                    <li><a href="static-html5-video.html"><div>Static - HTML5 Video</div></a></li>
+                                                                    <li><a href="static-embed-video.html"><div>Static - Embedded Video</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="slider-camera.html"><div>Camera Slider</div></a></li>
+                                                            <li><a href="slider-elastic.html"><div>Elastic Slider</div></a></li>
+                                                            <li><a href="slider-nivo.html"><div>Nivo Slider</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="widgets.html"><div><i class="icon-gift"></i>Widgets</div></a>
+                                                        <ul>
+                                                            <li><a href="widgets.html"><div>Links</div></a></li>
+                                                            <li><a href="widgets.html"><div>Flickr Photostream</div></a></li>
+                                                            <li><a href="widgets.html"><div>Dribbble Shots</div></a></li>
+                                                            <li><a href="widgets.html"><div>Instagram Feed</div></a></li>
+                                                            <li><a href="widgets.html"><div>Posts List</div></a></li>
+                                                            <li><a href="widgets.html"><div>Twitter Feed</div></a></li>
+                                                            <li><a href="widgets.html"><div>Tabbed Widgets</div></a></li>
+                                                            <li><a href="widgets.html"><div>Carousel</div></a></li>
+                                                            <li><a href="widgets.html"><div>Subscribers</div></a></li>
+                                                            <li><a href="widgets.html"><div>Social Icons</div></a></li>
+                                                            <li><a href="widgets.html"><div>Testimonials</div></a></li>
+                                                            <li><a href="widgets.html"><div>Quick Contact</div></a></li>
+                                                            <li><a href="widgets.html"><div>Tags Cloud</div></a></li>
+                                                            <li><a href="widgets.html"><div>Video Embeds</div></a></li>
+                                                            <li><a href="widgets.html"><div>Raw Text/HTML</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#"><div><i class="icon-umbrella"></i>Headers</div></a>
+                                                        <ul>
+                                                            <li><a href="header-light.html"><div>Light Version</div></a></li>
+                                                            <li><a href="header-dark.html"><div>Dark Version</div></a></li>
+                                                            <li><a href="header-transparent.html"><div>Transparent</div></a></li>
+                                                            <li><a href="header-semi-transparent.html"><div>Semi Transparent</div></a>
+                                                                <ul>
+                                                                    <li><a href="header-semi-transparent.html"><div>Light Version</div></a></li>
+                                                                    <li><a href="header-semi-transparent-dark.html"><div>Dark Version</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="header-side-left.html"><div>Left Side Header</div></a>
+                                                                <ul>
+                                                                    <li><a href="header-side-left.html"><div>Fixed Position</div></a></li>
+                                                                    <li><a href="header-side-left-open.html"><div>OnClick Open</div></a></li>
+                                                                    <li><a href="header-side-left-open-push.html"><div>Push Content</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="header-side-right.html"><div>Right Side Header</div></a>
+                                                                <ul>
+                                                                    <li><a href="header-side-right.html"><div>Fixed Position</div></a></li>
+                                                                    <li><a href="header-side-right-open.html"><div>OnClick Open</div></a></li>
+                                                                    <li><a href="header-side-right-open-push.html"><div>Push Content</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="header-floating.html"><div>Floating Version</div></a></li>
+                                                            <li><a href="static-sticky.html"><div>Static Sticky</div></a></li>
+                                                            <li><a href="responsive-sticky.html"><div>Responsive Sticky</div></a></li>
+                                                            <li><a href="logo-changer.html"><div>Alternate Logos</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="side-panel.html"><div><i class="icon-line-layout"></i>Side Panel</div></a>
+                                                        <ul>
+                                                            <li><a href="side-panel-left-overlay.html"><div>Left Overlay</div></a></li>
+                                                            <li><a href="side-panel-left-push.html"><div>Left Push</div></a></li>
+                                                            <li><a href="side-panel-right-overlay.html"><div>Right Overlay</div></a></li>
+                                                            <li><a href="side-panel.html"><div>Right Push</div></a></li>
+                                                            <li><a href="side-panel-light.html"><div>Light Background</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#"><div><i class="icon-align-justify2"></i>Menu Styles</div></a>
+                                                        <ul>
+                                                            <li><a href="header-light.html"><div>Menu - Style 1</div></a></li>
+                                                            <li><a href="menu-2.html"><div>Menu - Style 2</div></a></li>
+                                                            <li><a href="menu-3.html"><div>Menu - Style 3</div></a></li>
+                                                            <li><a href="menu-4.html"><div>Menu - Style 4</div></a></li>
+                                                            <li><a href="menu-5.html"><div>Menu - Style 5</div></a></li>
+                                                            <li><a href="menu-6.html"><div>Menu - Style 6</div></a></li>
+                                                            <li><a href="menu-7.html"><div>Menu - Style 7</div></a></li>
+                                                            <li><a href="menu-8.html"><div>Menu - Style 8</div></a></li>
+                                                            <li><a href="menu-9.html"><div>Menu - Style 9</div></a></li>
+                                                            <li><a href="menu-10.html"><div>Menu - Overlay</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#"><div><i class="icon-ok-sign"></i>Page Titles</div></a>
+                                                        <ul>
+                                                            <li><a href="page.html"><div>Left Align</div></a></li>
+                                                            <li><a href="page-title-right.html"><div>Right Align</div></a></li>
+                                                            <li><a href="page-title-center.html"><div>Center Align</div></a></li>
+                                                            <li><a href="page-titledark.html"><div>Dark Style</div></a></li>
+                                                            <li><a href="page-title-pattern.html"><div>Pattern Background</div></a></li>
+                                                            <li><a href="page-title-parallax.html"><div>Parallax Background</div></a>
+                                                                <ul>
+                                                                    <li><a href="page-title-parallax.html"><div>Default Header</div></a></li>
+                                                                    <li><a href="page-title-parallax-header.html"><div>Transparent Header</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="page-title-video.html"><div>HTML5 Video</div></a></li>
+                                                            <li><a href="page-title-nobg.html"><div>No Background</div></a></li>
+                                                            <li><a href="page-title-mini.html"><div>Mini Version</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="contact.html"><div><i class="icon-envelope-alt"></i>Contact Pages</div></a>
+                                                        <ul>
+                                                            <li><a href="contact.html">Contact 1</a></li>
+                                                            <li><a href="contact-2.html">Contact 2</a></li>
+                                                            <li><a href="contact-3.html">Contact 3</a></li>
+                                                            <li><a href="contact-4.html">Contact 4</a></li>
+                                                            <li><a href="contact-5.html">Contact 5</a></li>
+                                                            <li><a href="contact-6.html">Contact 6</a></li>
+                                                            <li><a href="contact-7.html">Contact 7</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#footer" data-scrollto="#footer"><div><i class="icon-th"></i>Footers</div></a>
+                                                        <ul>
+                                                            <li><a href="sticky-footer.html"><div>Sticky Footer</div></a></li>
+                                                            <li><a href="#footer" data-scrollto="#footer"><div>Footer - Layout 1</div></a></li>
+                                                            <li><a href="footer-2.html#footer"><div>Footer - Layout 2</div></a></li>
+                                                            <li><a href="footer-3.html#footer"><div>Footer - Layout 3</div></a></li>
+                                                            <li><a href="footer-4.html#footer"><div>Footer - Layout 4</div></a></li>
+                                                            <li><a href="footer-5.html#footer"><div>Footer - Layout 5</div></a></li>
+                                                            <li><a href="footer-6.html#footer"><div>Footer - Layout 6</div></a></li>
+                                                            <li><a href="footer-7.html#footer"><div>Footer - Layout 7</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#"><div><i class="icon-calendar3"></i>Events</div></a>
+                                                        <ul>
+                                                            <li><a href="events-calendar.html"><div>Full Width Calendar</div></a></li>
+                                                            <li><a href="events-list.html"><div>Events List</div></a>
+                                                                <ul>
+                                                                    <li><a href="events-list.html"><div>Right Sidebar</div></a></li>
+                                                                    <li><a href="events-list-left-sidebar.html"><div>Left Sidebar</div></a></li>
+                                                                    <li><a href="events-list-both-sidebar.html"><div>Both Sidebar</div></a></li>
+                                                                    <li><a href="events-list-fullwidth.html"><div>Full Width</div></a></li>
+                                                                    <li><a href="events-list-parallax.html"><div>Parallax List</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="event-single.html"><div>Single Event</div></a>
+                                                                <ul>
+                                                                    <li><a href="event-single-right-sidebar.html"><div>Right Sidebar</div></a></li>
+                                                                    <li><a href="event-single-left-sidebar.html"><div>Left Sidebar</div></a></li>
+                                                                    <li><a href="event-single-both-sidebar.html"><div>Both Sidebar</div></a></li>
+                                                                    <li><a href="event-single.html"><div>Full Width</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="event-single-full-width-image.html"><div>Single Event - Full</div></a>
+                                                                <ul>
+                                                                    <li><a href="event-single-full-width-image.html"><div>Parallax Image</div></a></li>
+                                                                    <li><a href="event-single-full-width-map.html"><div>Google Map</div></a></li>
+                                                                    <li><a href="event-single-full-width-slider.html"><div>Slider Gallery</div></a></li>
+                                                                    <li><a href="event-single-full-width-video.html"><div>HTML5 Video</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="modal-onload.html"><div><i class="icon-line-expand"></i>Modal OnLoad</div></a>
+                                                        <ul>
+                                                            <li><a href="modal-onload.html"><div>Simple Layout</div></a></li>
+                                                            <li><a href="modal-onload-iframe.html"><div>Video iFrame</div></a></li>
+                                                            <li><a href="modal-onload-subscribe.html"><div>Subscription Form</div></a></li>
+                                                            <li><a href="modal-onload-common-height.html"><div>Common Height</div></a></li>
+                                                            <li><a href="modal-onload-cookie.html"><div>Cookies Enabled</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="coming-soon.html"><div><i class="icon-time"></i>Coming Soon</div></a>
+                                                        <ul>
+                                                            <li><a href="coming-soon.html"><div>Simple Layout</div></a></li>
+                                                            <li><a href="coming-soon-2.html"><div>Parallax Image</div></a></li>
+                                                            <li><a href="coming-soon-3.html"><div>HTML5 Video</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#"><div><i class="icon-adjust"></i>Dark Version</div></a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+
+                                        <!-- Top Cart
+                                        ============================================= -->
+                                        <div id="top-cart">
+                                            <a href="#" id="top-cart-trigger"><i class="icon-shopping-cart"></i><span>5</span></a>
+                                            <div class="top-cart-content">
+                                                <div class="top-cart-title">
+                                                    <h4>Shopping Cart</h4>
+                                                </div>
+                                                <div class="top-cart-items">
+                                                    <div class="top-cart-item clearfix">
+                                                        <div class="top-cart-item-image">
+                                                            <a href="#"><img src="images/shop/small/1.jpg" alt="Blue Round-Neck Tshirt" /></a>
+                                                        </div>
+                                                        <div class="top-cart-item-desc">
+                                                            <a href="#">Blue Round-Neck Tshirt</a>
+                                                            <span class="top-cart-item-price">$19.99</span>
+                                                            <span class="top-cart-item-quantity">x 2</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="top-cart-item clearfix">
+                                                        <div class="top-cart-item-image">
+                                                            <a href="#"><img src="images/shop/small/6.jpg" alt="Light Blue Denim Dress" /></a>
+                                                        </div>
+                                                        <div class="top-cart-item-desc">
+                                                            <a href="#">Light Blue Denim Dress</a>
+                                                            <span class="top-cart-item-price">$24.99</span>
+                                                            <span class="top-cart-item-quantity">x 3</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="top-cart-action clearfix">
+                                                    <span class="fleft top-checkout-price">$114.95</span>
+                                                    <button class="button button-3d button-small nomargin fright">View Cart</button>
+                                                </div>
+                                            </div>
+                                        </div><!-- #top-cart end -->
+
+                                        <!-- Top Search
+                                        ============================================= -->
+                                        <div id="top-search">
+                                            <a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
+                                            <form action="search.html" method="get">
+                                                <input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
+                                            </form>
+                                        </div><!-- #top-search end -->
+
+                                    </nav><!-- #primary-menu end -->
+
+                                </div>
+
+                            </div>
+
+                        </header>
+
+                        <p>by <b class="positioning">positioning</b>, <b class="rotating">rotating</b> and <b class="scaling">scaling</b> them on an infinite canvas</p>
+                    </div>
+
+                    <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
+                        <header id="header" class="full-header transparent-header" style="position: fixed; top: 0px; width:100%; z-index: 1000;">
+
+                            <div id="header-wrap">
+
+                                <div class="container clearfix">
+
+                                    <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+                                    <!-- Logo
+                                    ============================================= -->
+                                    <div href="#home"  id="logo">
+                                        <a href="#home" class="standard-logo" data-dark-logo="assets/logo.png"><img href="#home"  src="assets/logo.png" alt="IdeaPortal Logo"></a>
+                                        <a href="#home" class="retina-logo" data-dark-logo="assets/logo.png"><img src="assets/logo.png" alt="IdeaPortal Logo"></a>
+                                    </div><!-- #logo end -->
+
+                                    <!-- Primary Navigation
+                                    ============================================= -->
+                                    <nav id="primary-menu">
+
+                                        <ul>
+                                            <li><a href="index.html"><div>Home</div></a>
+
+                                            </li>
+                                            <li><a href="#"><div>Features</div></a>
+                                                <ul>
+                                                    <li><a href="#"><div><i class="icon-stack"></i>Sliders</div></a>
+                                                        <ul>
+                                                            <li><a href="slider-revolution.html"><div>Revolution Slider</div></a>
+                                                                <ul>
+                                                                    <li><a href="slider-revolution.html"><div>Full Screen</div></a></li>
+                                                                    <li><a href="slider-revolution-fullwidth.html"><div>Full Width</div></a></li>
+                                                                    <li><a href="slider-revolution-kenburns.html"><div>Kenburns Effect</div></a></li>
+                                                                    <li><a href="slider-revolution-html5-videos.html"><div>HTML5 Video</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="slider-canvas.html"><div>Canvas Slider</div></a>
+                                                                <ul>
+                                                                    <li><a href="slider-canvas.html"><div>Full Width</div></a></li>
+                                                                    <li><a href="slider-canvas-fade.html"><div>Fade Transition</div></a></li>
+                                                                    <li><a href="slider-canvas-autoplay.html"><div>Autoplay Feature</div></a></li>
+                                                                    <li><a href="slider-canvas-video-event.html"><div>Custom Video Event</div></a></li>
+                                                                    <li><a href="slider-canvas-pagination.html"><div>Pagination Navigation</div></a></li>
+                                                                    <li><a href="slider-canvas-3.html"><div>3 Columns</div></a></li>
+                                                                    <li><a href="slider-canvas-4.html"><div>4 Columns</div></a></li>
+                                                                    <li><a href="slider-canvas-5.html"><div>5 Columns</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="slider-flex.html"><div>Flex Slider</div></a>
+                                                                <ul>
+                                                                    <li><a href="slider-flex.html"><div>Default Layout</div></a></li>
+                                                                    <li><a href="slider-flex-thumbs.html"><div>with Thumbs</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="slider-owl.html"><div>Owl Slider</div></a>
+                                                                <ul>
+                                                                    <li><a href="slider-owl-full.html"><div>Full Width</div></a></li>
+                                                                    <li><a href="slider-owl.html"><div>Boxed Width</div></a></li>
+                                                                    <li><a href="slider-owl-videos.html"><div>Video Slider</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="static-parallax.html"><div>Static Media</div></a>
+                                                                <ul>
+                                                                    <li><a href="static-parallax.html"><div>Static - Parallax</div></a></li>
+                                                                    <li><a href="static-image.html"><div>Static - Image</div></a></li>
+                                                                    <li><a href="static-thumbs-grid.html"><div>Static - Thumb Gallery</div></a></li>
+                                                                    <li><a href="static-html5-video.html"><div>Static - HTML5 Video</div></a></li>
+                                                                    <li><a href="static-embed-video.html"><div>Static - Embedded Video</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="slider-camera.html"><div>Camera Slider</div></a></li>
+                                                            <li><a href="slider-elastic.html"><div>Elastic Slider</div></a></li>
+                                                            <li><a href="slider-nivo.html"><div>Nivo Slider</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="widgets.html"><div><i class="icon-gift"></i>Widgets</div></a>
+                                                        <ul>
+                                                            <li><a href="widgets.html"><div>Links</div></a></li>
+                                                            <li><a href="widgets.html"><div>Flickr Photostream</div></a></li>
+                                                            <li><a href="widgets.html"><div>Dribbble Shots</div></a></li>
+                                                            <li><a href="widgets.html"><div>Instagram Feed</div></a></li>
+                                                            <li><a href="widgets.html"><div>Posts List</div></a></li>
+                                                            <li><a href="widgets.html"><div>Twitter Feed</div></a></li>
+                                                            <li><a href="widgets.html"><div>Tabbed Widgets</div></a></li>
+                                                            <li><a href="widgets.html"><div>Carousel</div></a></li>
+                                                            <li><a href="widgets.html"><div>Subscribers</div></a></li>
+                                                            <li><a href="widgets.html"><div>Social Icons</div></a></li>
+                                                            <li><a href="widgets.html"><div>Testimonials</div></a></li>
+                                                            <li><a href="widgets.html"><div>Quick Contact</div></a></li>
+                                                            <li><a href="widgets.html"><div>Tags Cloud</div></a></li>
+                                                            <li><a href="widgets.html"><div>Video Embeds</div></a></li>
+                                                            <li><a href="widgets.html"><div>Raw Text/HTML</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#"><div><i class="icon-umbrella"></i>Headers</div></a>
+                                                        <ul>
+                                                            <li><a href="header-light.html"><div>Light Version</div></a></li>
+                                                            <li><a href="header-dark.html"><div>Dark Version</div></a></li>
+                                                            <li><a href="header-transparent.html"><div>Transparent</div></a></li>
+                                                            <li><a href="header-semi-transparent.html"><div>Semi Transparent</div></a>
+                                                                <ul>
+                                                                    <li><a href="header-semi-transparent.html"><div>Light Version</div></a></li>
+                                                                    <li><a href="header-semi-transparent-dark.html"><div>Dark Version</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="header-side-left.html"><div>Left Side Header</div></a>
+                                                                <ul>
+                                                                    <li><a href="header-side-left.html"><div>Fixed Position</div></a></li>
+                                                                    <li><a href="header-side-left-open.html"><div>OnClick Open</div></a></li>
+                                                                    <li><a href="header-side-left-open-push.html"><div>Push Content</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="header-side-right.html"><div>Right Side Header</div></a>
+                                                                <ul>
+                                                                    <li><a href="header-side-right.html"><div>Fixed Position</div></a></li>
+                                                                    <li><a href="header-side-right-open.html"><div>OnClick Open</div></a></li>
+                                                                    <li><a href="header-side-right-open-push.html"><div>Push Content</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="header-floating.html"><div>Floating Version</div></a></li>
+                                                            <li><a href="static-sticky.html"><div>Static Sticky</div></a></li>
+                                                            <li><a href="responsive-sticky.html"><div>Responsive Sticky</div></a></li>
+                                                            <li><a href="logo-changer.html"><div>Alternate Logos</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="side-panel.html"><div><i class="icon-line-layout"></i>Side Panel</div></a>
+                                                        <ul>
+                                                            <li><a href="side-panel-left-overlay.html"><div>Left Overlay</div></a></li>
+                                                            <li><a href="side-panel-left-push.html"><div>Left Push</div></a></li>
+                                                            <li><a href="side-panel-right-overlay.html"><div>Right Overlay</div></a></li>
+                                                            <li><a href="side-panel.html"><div>Right Push</div></a></li>
+                                                            <li><a href="side-panel-light.html"><div>Light Background</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#"><div><i class="icon-align-justify2"></i>Menu Styles</div></a>
+                                                        <ul>
+                                                            <li><a href="header-light.html"><div>Menu - Style 1</div></a></li>
+                                                            <li><a href="menu-2.html"><div>Menu - Style 2</div></a></li>
+                                                            <li><a href="menu-3.html"><div>Menu - Style 3</div></a></li>
+                                                            <li><a href="menu-4.html"><div>Menu - Style 4</div></a></li>
+                                                            <li><a href="menu-5.html"><div>Menu - Style 5</div></a></li>
+                                                            <li><a href="menu-6.html"><div>Menu - Style 6</div></a></li>
+                                                            <li><a href="menu-7.html"><div>Menu - Style 7</div></a></li>
+                                                            <li><a href="menu-8.html"><div>Menu - Style 8</div></a></li>
+                                                            <li><a href="menu-9.html"><div>Menu - Style 9</div></a></li>
+                                                            <li><a href="menu-10.html"><div>Menu - Overlay</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#"><div><i class="icon-ok-sign"></i>Page Titles</div></a>
+                                                        <ul>
+                                                            <li><a href="page.html"><div>Left Align</div></a></li>
+                                                            <li><a href="page-title-right.html"><div>Right Align</div></a></li>
+                                                            <li><a href="page-title-center.html"><div>Center Align</div></a></li>
+                                                            <li><a href="page-titledark.html"><div>Dark Style</div></a></li>
+                                                            <li><a href="page-title-pattern.html"><div>Pattern Background</div></a></li>
+                                                            <li><a href="page-title-parallax.html"><div>Parallax Background</div></a>
+                                                                <ul>
+                                                                    <li><a href="page-title-parallax.html"><div>Default Header</div></a></li>
+                                                                    <li><a href="page-title-parallax-header.html"><div>Transparent Header</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="page-title-video.html"><div>HTML5 Video</div></a></li>
+                                                            <li><a href="page-title-nobg.html"><div>No Background</div></a></li>
+                                                            <li><a href="page-title-mini.html"><div>Mini Version</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="contact.html"><div><i class="icon-envelope-alt"></i>Contact Pages</div></a>
+                                                        <ul>
+                                                            <li><a href="contact.html">Contact 1</a></li>
+                                                            <li><a href="contact-2.html">Contact 2</a></li>
+                                                            <li><a href="contact-3.html">Contact 3</a></li>
+                                                            <li><a href="contact-4.html">Contact 4</a></li>
+                                                            <li><a href="contact-5.html">Contact 5</a></li>
+                                                            <li><a href="contact-6.html">Contact 6</a></li>
+                                                            <li><a href="contact-7.html">Contact 7</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#footer" data-scrollto="#footer"><div><i class="icon-th"></i>Footers</div></a>
+                                                        <ul>
+                                                            <li><a href="sticky-footer.html"><div>Sticky Footer</div></a></li>
+                                                            <li><a href="#footer" data-scrollto="#footer"><div>Footer - Layout 1</div></a></li>
+                                                            <li><a href="footer-2.html#footer"><div>Footer - Layout 2</div></a></li>
+                                                            <li><a href="footer-3.html#footer"><div>Footer - Layout 3</div></a></li>
+                                                            <li><a href="footer-4.html#footer"><div>Footer - Layout 4</div></a></li>
+                                                            <li><a href="footer-5.html#footer"><div>Footer - Layout 5</div></a></li>
+                                                            <li><a href="footer-6.html#footer"><div>Footer - Layout 6</div></a></li>
+                                                            <li><a href="footer-7.html#footer"><div>Footer - Layout 7</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#"><div><i class="icon-calendar3"></i>Events</div></a>
+                                                        <ul>
+                                                            <li><a href="events-calendar.html"><div>Full Width Calendar</div></a></li>
+                                                            <li><a href="events-list.html"><div>Events List</div></a>
+                                                                <ul>
+                                                                    <li><a href="events-list.html"><div>Right Sidebar</div></a></li>
+                                                                    <li><a href="events-list-left-sidebar.html"><div>Left Sidebar</div></a></li>
+                                                                    <li><a href="events-list-both-sidebar.html"><div>Both Sidebar</div></a></li>
+                                                                    <li><a href="events-list-fullwidth.html"><div>Full Width</div></a></li>
+                                                                    <li><a href="events-list-parallax.html"><div>Parallax List</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="event-single.html"><div>Single Event</div></a>
+                                                                <ul>
+                                                                    <li><a href="event-single-right-sidebar.html"><div>Right Sidebar</div></a></li>
+                                                                    <li><a href="event-single-left-sidebar.html"><div>Left Sidebar</div></a></li>
+                                                                    <li><a href="event-single-both-sidebar.html"><div>Both Sidebar</div></a></li>
+                                                                    <li><a href="event-single.html"><div>Full Width</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="event-single-full-width-image.html"><div>Single Event - Full</div></a>
+                                                                <ul>
+                                                                    <li><a href="event-single-full-width-image.html"><div>Parallax Image</div></a></li>
+                                                                    <li><a href="event-single-full-width-map.html"><div>Google Map</div></a></li>
+                                                                    <li><a href="event-single-full-width-slider.html"><div>Slider Gallery</div></a></li>
+                                                                    <li><a href="event-single-full-width-video.html"><div>HTML5 Video</div></a></li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="modal-onload.html"><div><i class="icon-line-expand"></i>Modal OnLoad</div></a>
+                                                        <ul>
+                                                            <li><a href="modal-onload.html"><div>Simple Layout</div></a></li>
+                                                            <li><a href="modal-onload-iframe.html"><div>Video iFrame</div></a></li>
+                                                            <li><a href="modal-onload-subscribe.html"><div>Subscription Form</div></a></li>
+                                                            <li><a href="modal-onload-common-height.html"><div>Common Height</div></a></li>
+                                                            <li><a href="modal-onload-cookie.html"><div>Cookies Enabled</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="coming-soon.html"><div><i class="icon-time"></i>Coming Soon</div></a>
+                                                        <ul>
+                                                            <li><a href="coming-soon.html"><div>Simple Layout</div></a></li>
+                                                            <li><a href="coming-soon-2.html"><div>Parallax Image</div></a></li>
+                                                            <li><a href="coming-soon-3.html"><div>HTML5 Video</div></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#"><div><i class="icon-adjust"></i>Dark Version</div></a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+
+                                        <!-- Top Cart
+                                        ============================================= -->
+                                        <div id="top-cart">
+                                            <a href="#" id="top-cart-trigger"><i class="icon-shopping-cart"></i><span>5</span></a>
+                                            <div class="top-cart-content">
+                                                <div class="top-cart-title">
+                                                    <h4>Shopping Cart</h4>
+                                                </div>
+                                                <div class="top-cart-items">
+                                                    <div class="top-cart-item clearfix">
+                                                        <div class="top-cart-item-image">
+                                                            <a href="#"><img src="images/shop/small/1.jpg" alt="Blue Round-Neck Tshirt" /></a>
+                                                        </div>
+                                                        <div class="top-cart-item-desc">
+                                                            <a href="#">Blue Round-Neck Tshirt</a>
+                                                            <span class="top-cart-item-price">$19.99</span>
+                                                            <span class="top-cart-item-quantity">x 2</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="top-cart-item clearfix">
+                                                        <div class="top-cart-item-image">
+                                                            <a href="#"><img src="images/shop/small/6.jpg" alt="Light Blue Denim Dress" /></a>
+                                                        </div>
+                                                        <div class="top-cart-item-desc">
+                                                            <a href="#">Light Blue Denim Dress</a>
+                                                            <span class="top-cart-item-price">$24.99</span>
+                                                            <span class="top-cart-item-quantity">x 3</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="top-cart-action clearfix">
+                                                    <span class="fleft top-checkout-price">$114.95</span>
+                                                    <button class="button button-3d button-small nomargin fright">View Cart</button>
+                                                </div>
+                                            </div>
+                                        </div><!-- #top-cart end -->
+
+                                        <!-- Top Search
+                                        ============================================= -->
+                                        <div id="top-search">
+                                            <a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
+                                            <form action="search.html" method="get">
+                                                <input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
+                                            </form>
+                                        </div><!-- #top-search end -->
+
+                                    </nav><!-- #primary-menu end -->
+
+                                </div>
+
+                            </div>
+
+                        </header>
+
+                        <p>the only <b>limit</b> is your <b class="imagination">imagination</b></p>
+                    </div>
+
+                    <div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
+                        <p>want to know more?</p>
+                        <q><a href="http://github.com/bartaz/impress.js">use the source</a>, Luke!</q>
+                    </div>
+
+                    <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
+                        <p>one more thing...</p>
+                    </div>
+
+                    <!--
+
+                        And the last one shows full power and flexibility of impress.js.
+
+                        You can not only position element in 3D, but also rotate it around any axis.
+                        So this one here will get rotated by -40 degrees (40 degrees anticlockwise) around X axis and
+                        10 degrees (clockwise) around Y axis.
+
+                        You can of course rotate it around Z axis with `data-rotate-z` - it has exactly the same effect
+                        as `data-rotate` (these two are basically aliases).
+
+                    -->
+                    <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+                        <p><span class="have">have</span> <span class="you">you</span> <span class="noticed">noticed</span> <span class="its">it’s</span> <span class="in">in</span> <b>3D<sup>*</sup></b>?</p>
+                        <span class="footnote">* beat that, prezi ;)</span>
+                    </div>
+
+                    <!--
+
+                        So to summarize of all the possible attributes used to position presentation steps, we have:
+
+                        * `data-x`, `data-y`, `data-z` - they define the position of **the center** of step element on
+                            the canvas in pixels; their default value is 0;
+                        * `data-rotate-x`, `data-rotate-y`, 'data-rotate-z`, `data-rotate` - they define the rotation of
+                            the element around given axis in degrees; their default value is 0; `data-rotate` and `data-rotate-z`
+                            are exactly the same;
+                        * `data-scale` - defines the scale of step element; default value is 1
+
+                        These values are used by impress.js in CSS transformation functions, so for more information consult
+                        CSS transfrom docs: https://developer.mozilla.org/en/CSS/transform
+
+                    -->
+                    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+                    </div>
+
+                </div>
+
+                <!--
+
+                    Hint is not related to impress.js in any way.
+
+                    But it can show you how to use impress.js features in creative way.
+
+                    When the presentation step is shown (selected) its element gets the class of "active" and the body element
+                    gets the class based on active step id `impress-on-ID` (where ID is the step's id)... It may not be
+                    so clear because of all these "ids" in previous sentence, so for example when the first step (the one with
+                    the id of `bored`) is active, body element gets a class of `impress-on-bored`.
+
+                    This class is used by this hint below. Check CSS file to see how it's shown with delayed CSS animation when
+                    the first step of presentation is visible for a couple of seconds.
+
+                    ...
+
+                    And when it comes to this piece of JavaScript below ... kids, don't do this at home ;)
+                    It's just a quick and dirty workaround to get different hint text for touch devices.
+                    In a real world it should be at least placed in separate JS file ... and the touch content should be
+                    probably just hidden somewhere in HTML - not hard-coded in the script.
+
+                    Just sayin' ;)
+
+                -->
+                <div class="hint ">
+                    <p>Use a spacebar or arrow keys to navigate</p>
+                </div>
+                <script>
+                    if ("ontouchstart" in document.documentElement) {
+                        document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+                    }
+                </script>
+
+            </div>
+
+        </section>
+    </div>
+<!--
+
+    Now that's the core element used by impress.js.
+
+    That's the wrapper for your presentation steps. In this element all the impress.js magic happens.
+    It doesn't have to be a `<div>`. Only `id` is important here as that's how the script find it.
+
+    You probably won't need it now, but there are some configuration options that can be set on this element.
+
+    To change the duration of the transition between slides use `data-transition-duration="2000"` giving it
+    a number of ms. It defaults to 1000 (1s).
+
+    You can also control the perspective with `data-perspective="500"` giving it a number of pixels.
+    It defaults to 1000. You can set it to 0 if you don't want any 3D effects.
+    If you are willing to change this value make sure you understand how CSS perspective works:
+    https://developer.mozilla.org/en/CSS/perspective
+
+    But as I said, you won't need it for now, so don't worry - there are some simple but interesting things
+    right around the corner of this tag ;)
+
+-->
+<!--
+
+    Last, but not least.
+
+    To make all described above really work, you need to include impress.js in the page.
+    I strongly encourage to minify it first.
+
+    In here I just include full source of the script to make it more readable.
+
+    You also need to call a `impress().init()` function to initialize impress.js presentation.
+    And you should do it in the end of your document. Not only because it's a good practice, but also
+    because it should be done when the whole document is ready.
+    Of course you can wrap it in any kind of "DOM ready" event, but I was too lazy to do so ;)
+
+-->
+
+
+<!--
+
+    The `impress()` function also gives you access to the API that controls the presentation.
+
+    Just store the result of the call:
+
+        var api = impress();
+
+    and you will get three functions you can call:
+
+        `api.init()` - initializes the presentation,
+        `api.next()` - moves to next step of the presentation,
+        `api.prev()` - moves to previous step of the presentation,
+        `api.goto( stepIndex | stepElementId | stepElement, [duration] )` - moves the presentation to the step given by its index number
+                id or the DOM element; second parameter can be used to define duration of the transition in ms,
+                but it's optional - if not provided default transition duration for the presentation will be used.
+
+    You can also simply call `impress()` again to get the API, so `impress().next()` is also allowed.
+    Don't worry, it wont initialize the presentation again.
+
+    For some example uses of this API check the last part of the source of impress.js where the API
+    is used in event handlers.
+
+-->
+
+</body>
+
+
+<!--
+
+    Now you know more or less everything you need to build your first impress.js presentation, but before
+    you start...
+
+    Oh, you've already cloned the code from GitHub?
+
+    You have it open in text editor?
+
+    Stop right there!
+
+    That's not how you create awesome presentations. This is only a code. Implementation of the idea that
+    first needs to grow in your mind.
+
+    So if you want to build great presentation take a pencil and piece of paper. And turn off the computer.
+
+    Sketch, draw and write. Brainstorm your ideas on a paper. Try to build a mind-map of what you'd like
+    to present. It will get you closer and closer to the layout you'll build later with impress.js.
+
+    Get back to the code only when you have your presentation ready on a paper. It doesn't make sense to do
+    it earlier, because you'll only waste your time fighting with positioning of useless points.
+
+    If you think I'm crazy, please put your hands on a book called "Presentation Zen". It's all about
+    creating awesome and engaging presentations.
+
+    Think about it. 'Cause impress.js may not help you, if you have nothing interesting to say.
+
+-->
+
+<!--
+
+    Are you still reading this?
+
+    For real?
+
+    I'm impressed! Feel free to let me know that you got that far (I'm @bartaz on Twitter), 'cause I'd like
+    to congratulate you personally :)
+
+    But you don't have to do it now. Take my advice and take some time off. Make yourself a cup of coffee, tea,
+    or anything you like to drink. And raise a glass for me ;)
+
+    Cheers!
+
+-->
+
+<%= javascript_include_tag 'impress' %>
+<script>var self = this; setTimeout(self.impress().init(),100);</script>

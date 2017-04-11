@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <%= csrf_meta_tags %>
+
+
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>IdeaPortal - A Web Product Technology Studio</title>
+
+  <meta name="description" content="IdeaPortal is Ruby On Rails, AWS, Heroku, Javascript, 12-Factor, Openstack, Web product Technology Studio offering fullfledged UI.UX,Development,Scaling & Operations support along with Business Intelligence, Business & Market Analysis & Quality Assurance Facilitation. The holocratic high-performance team is based in mysore and consists of full stack engineers, product architects, rubyists, BAs, Graphic designers and UI experts. />
+  <meta name="author" content="Bartek Szopka" />
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <%= javascript_include_tag 'application',  'data-turbolinks-track' => true %>
+  <%= javascript_include_tag  'plugins', 'analytics' %>
+
+
+
+  <link rel="shortcut icon" href="favicon.png" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+
+
+
+<%= yield %>
+
+
+
+</html>
