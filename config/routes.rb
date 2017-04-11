@@ -5,6 +5,9 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'welcome#jmpress'
   get 'solutions' => "welcome#solutions"
+  # get 'foo' => "welcome#jmpress"
+  # get 'solutions' => "welcome#solutions"
+  get 'circular' => "welcome#circle"
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
