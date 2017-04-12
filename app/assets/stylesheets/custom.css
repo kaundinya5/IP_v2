@@ -1,13 +1,17 @@
-body .secondary_cta_container, body .secondary_cta , .ip_nav li a, .ip_nav li a:before{
+body .secondary_cta_container,
+body .secondary_cta,
+.ip_nav li a,
+.ip_nav li a:before {
     -webkit-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
 }
+
 #primary-menu ul li a {
     pointer-events: auto;
 }
 
-.ip_nav li a{
+.ip_nav li a {
     line-height: 3.5vh !important;
     height: 3.5vh !important;
     font-family: source-sans-pro, sans-serif;
@@ -16,11 +20,11 @@ body .secondary_cta_container, body .secondary_cta , .ip_nav li a, .ip_nav li a:
     color: black;
 }
 
-.ip_nav li a:hover{
+.ip_nav li a:hover {
     color: #4cb2d8 !important;
 }
 
-.ip_nav li a:before{
+.ip_nav li a:before {
     content: "";
     position: absolute;
     right: 90px;
@@ -34,54 +38,47 @@ body .secondary_cta_container, body .secondary_cta , .ip_nav li a, .ip_nav li a:
     visibility: hidden;
     opacity: 0;
     transition: visibility .1s, opacity 1.2s linear;
-
 }
-.ip_nav li  .selected{
+
+.ip_nav li .selected {
     color: #4cb2d8 !important;
 }
 
-.ip_nav li  .selected:before {
-visibility: visible;
+.ip_nav li .selected:before {
+    visibility: visible;
     opacity: 1;
     transition: visibility .1s, opacity 1.2s linear;
-
 }
 
-
-.secondary_cta_container{
+.secondary_cta_container {
     padding-top: 22vh;
     padding-bottom: 4vh;
-
-
 }
 
 .footer {
     padding_top: 5vh;
     background: #F9F5E7 !important;
     border-top: none !important;
-
 }
 
 .secondary_cta_container:hover .secondary_cta {
-
     font-weight: 400;
     font-size: 1.14em;
-
 }
 
 .secondary_cta {
     color: black !important;
-    font-size: 1.1em ;
+    font-size: 1.1em;
     letter-spacing: 0.04em !important;
     border: none !important;
     max-width: 16.6vw;
-line-height: 1.2;
+    line-height: 1.2;
     text-align: justify;
     font-weight: 300;
     text-shadow: none !important;
 }
 
-h2{
+h2 {
     font-weight: 200;
     color: #222 !important;
     letter-spacing: .06em;
@@ -90,17 +87,15 @@ h2{
     margin-left: 5vw !important;
     margin-bottom: 3.5vh !important;
 }
-b{
+
+b {
     font-weight: 600 !important;
-
-
 }
-
 
 .heroimage {
     background-image: url('back.png');
     background-position: bottom;
-    background-size: contain ;
+    background-size: contain;
     background-repeat: no-repeat;
     position: relative;
     width: 50vh;
@@ -110,59 +105,39 @@ b{
     bottom: 0;
     padding-top: 66.64%;
     float: left;
-
 }
 
-
-
 @media screen and (max-width: 1200px) {
-    .herotext::before {
-        left: -25vw;
-
-    }
 
 }
 
 @media screen and (max-width: 800px) {
-    .secondary_cta_container{
+    .secondary_cta_container {
         padding-top: 5vh;
-
-
     }
     .secondary_cta {
         color: black !important;
-        font-size: 0.7em ;
-
+        font-size: 0.7em;
     }
-
     .secondary_cta_container:hover .secondary_cta {
-
         font-weight: 300;
         font-size: .74em;
-
     }
-    h2{
+    h2 {
         font-size: 1.2em !important;
     }
-
-
-    .button{
+    .button {
         font-size: .7em !important;
         line-height: 25px !important;
         height: 30px !important;
     }
-
     .heroimage {
         width: 40vh;
         height: 40vh;
         bottom: 0;
-
     }
-
 }
 
 @media screen and (max-width: 500px) {
-    .herotext::before {
-        display: none;
-    }
+
 }
