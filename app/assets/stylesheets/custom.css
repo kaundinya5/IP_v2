@@ -94,17 +94,15 @@ b {
 
 .heroimage {
     background-image: url('back.png');
-    background-position: bottom;
+    background-position: 0 0;
     background-size: contain;
     background-repeat: no-repeat;
-    position: relative;
+    position: absolute;
     width: 50vh;
     height: 50vh;
     content: "";
-    left: -20vw;
-    bottom: 0;
-    padding-top: 66.64%;
-    float: left;
+    left: -18vw;
+    top: -36.0vh;
 }
 
 @media screen and (max-width: 1200px) {
