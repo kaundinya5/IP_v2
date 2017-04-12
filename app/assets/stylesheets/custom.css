@@ -108,7 +108,9 @@ b {
 }
 
 @media screen and (max-width: 1200px) {
-
+    .herotext::before {
+        left: -25vw;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -139,5 +141,7 @@ b {
 }
 
 @media screen and (max-width: 500px) {
-
+    .herotext::before {
+        display: none;
+    }
 }
