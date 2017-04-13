@@ -34,23 +34,69 @@
                 <section id="content" class="full-screen with-header  clearfix" style="background: transparent;">
                     <div class="container clearfix nomargin nopadding" style="min-height:100vh; min-width: 100vw; background: transparent;">
                         <div id="simple" style="background: white">
-                            <div class="step" data-x="700" data-y="-299" data-rotate="0" data-scale="1">
+
+                            <div id="home" class="step" data-x="1050" data-y="-299" data-rotate="0" data-scale="1">
                                 <div class="col_full center nomargin nopadding" style=" display: flex;flex-direction: column-reverse;justify-content: space-between; min-height: 50vh;background: white">
                                     <div class="center divcenter row clearfix commonheight leftmargin-sm" style=" ">
-                                        <h2 class=" herotext" style="background: transparent;  font-weight: 200; text-align: left"><div class="heroimage"></div>Slide achal
+                                        <h2 class=" herotext" style="background: transparent;  font-weight: 200; text-align: left">
+                                            <div class="heroimage"></div>
+                                            Slide 1
+                                        </h2>
                                     </div>
                                 </div>
                             </div>
-                            <div class="step" data-x="-400" data-y="800" data-rotate="90" data-scale="1">
-                                <p style="font-size: 40px;color: black">Slide 2</p>
+                            <div id="solutions" class="step" data-x="325" data-y="955" data-rotate="60" data-scale="1">
+                                <div class="col_full center nomargin nopadding" style=" display: flex;flex-direction: column-reverse;justify-content: space-between; min-height: 50vh;background: white">
+                                    <div class="center divcenter row clearfix commonheight leftmargin-sm" style=" ">
+                                        <h2 class=" herotext" style="background: transparent;  font-weight: 200; text-align: left">
+                                            <div class="heroimage"></div>
+                                            Slide 2
+                                        </h2>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="step" data-x="-1500" data-y="-300" data-rotate="180" data-scale="1">
-                                <p style="font-size: 40px;color: black">Slide 3</p>
+                            <div id="expertise" class="step" data-x="-1125" data-y="955" data-rotate="120" data-scale="1">
+                                <div class="col_full center nomargin nopadding" style=" display: flex;flex-direction: column-reverse;justify-content: space-between; min-height: 50vh;background: white">
+                                    <div class="center divcenter row clearfix commonheight leftmargin-sm" style=" ">
+                                        <h2 class=" herotext" style="background: transparent;  font-weight: 200; text-align: left">
+                                            <div class="heroimage"></div>
+                                            Slide 3
+                                        </h2>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="step" data-x="-399" data-y="-1400" data-rotate="270" data-scale="1">
-                                <p style="font-size: 40px;color: black">Slide 4</p>
+                            <div id="careers" class="step" data-x="-1850" data-y="-300" data-rotate="180" data-scale="1">
+                                <div class="col_full center nomargin nopadding" style=" display: flex;flex-direction: column-reverse;justify-content: space-between; min-height: 50vh;background: white">
+                                    <div class="center divcenter row clearfix commonheight leftmargin-sm" style=" ">
+                                        <h2 class=" herotext" style="background: transparent;  font-weight: 200; text-align: left">
+                                            <div class="heroimage"></div>
+                                            Slide 4
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="about us" class="step" data-x="-1124" data-y="-1555" data-rotate="240" data-scale="1">
+                                <div class="col_full center nomargin nopadding" style=" display: flex;flex-direction: column-reverse;justify-content: space-between; min-height: 50vh;background: white">
+                                    <div class="center divcenter row clearfix commonheight leftmargin-sm" style=" ">
+                                        <h2 class=" herotext" style="background: transparent;  font-weight: 200; text-align: left">
+                                            <div class="heroimage"></div>
+                                            Slide 5
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="contact" class="step" data-x="325" data-y="-1555" data-rotate="270" data-scale="1">
+                                <div class="col_full center nomargin nopadding" style=" display: flex;flex-direction: column-reverse;justify-content: space-between; min-height: 50vh;background: white">
+                                    <div class="center divcenter row clearfix commonheight leftmargin-sm" style=" ">
+                                        <h2 class=" herotext" style="background: transparent;  font-weight: 200; text-align: left">
+                                            <div class="heroimage"></div>
+                                            Slide 6
+                                        </h2>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+
                         <div id="footer" class="footer" style="margin-top:95vh;">
                             <div class="col_full center nomargin nopadding" style="font-size: .9em">
                                 <i>Copyright - IdeaPortal Services Pvt Ltd - 2017</i>
@@ -64,7 +110,6 @@
             <script>
             bumbum = 1;
             setTimeout(function() {
-
                 $('#simple').jmpress({
                     animation: {
                         transformOrigin: 'center center', // Point on which to transform (unused)
@@ -76,19 +121,11 @@
                     transitionDuration: 2000 // Set this according to animation.transitionDuration
                         // It is used for setting the timeout for the transition
                 });
-
-
-
-
-
                 $(["home", "solutions", "about", "expertise", "contact"]).each(function() {
                     console.log(this);
                     console.log($('#' + this));
                     var self = this
-
                     $('#' + this).on('enterStep', function(event) {
-
-
                         jQuery.expr[":"].Contains = jQuery.expr.createPseudo(function(arg) {
                             return function(elem) {
                                 return jQuery(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
@@ -97,25 +134,18 @@
                         if ($('ul.ip_nav li a:Contains(' + self + ')')[0]) {
                             $($('ul.ip_nav li a:Contains(' + self + ')')[0]).addClass('selected')
                         }
-
                         console.log($('ul.ip_nav li a:Contains(' + self + ')')[0]);
                     });
-
                     $('#' + this).on('leaveStep', function(event) {
-
-
                         jQuery.expr[":"].Contains = jQuery.expr.createPseudo(function(arg) {
                             return function(elem) {
                                 return jQuery(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
                             };
                         });
-
                         if ($('ul.ip_nav li a:Contains(' + self + ')')[0]) {
                             $($('ul.ip_nav li a:Contains(' + self + ')')[0]).removeClass('selected')
                         }
                     });
                 });
-
-
             });
             </script>
