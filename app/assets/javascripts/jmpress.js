@@ -897,7 +897,7 @@
 					var coord = ["X", "Y", "Z"];
 					var i;
 					if(item[0] === "translate") { // ["translate", x, y, z]
-						transform += " translate3d(" + toCssNumber(item[1] || 0) + "px," + toCssNumber(item[2] || 0) + "px," + toCssNumber(item[3] || 0) + "px)";
+						transform += " translate3d(" + toCssNumber(item[1] || 0) + "px," + toCssNumber(item[2] || 0) + "px," + toCssNumber(item[3] || 10) + "px)";
 					} else if(item[0] === "rotate") {
 						var order = item[4] ? [1, 2, 3] : [3, 2, 1];
 						for(i = 0; i < 3; i++) {
@@ -1551,7 +1551,7 @@
 
 	/* DEFAULTS */
 	$jmpress('defaults').keyboard = {
-		use: true
+		use: false
 		,keys: {
 			33: jmpressPrev // pg up
 			,37: jmpressPrev // left

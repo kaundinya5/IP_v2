@@ -9,7 +9,7 @@
                     <a href="#home" class="retina-logo" data-dark-logo="assets/logo.png"><img src="assets/logo.png" alt="IdeaPortal Logo"></a>
                 </div>
                 <!-- #logo end -->
-                <header id="header" class=" header transparent side-header-right" style="background:transparent !important;position: fixed; top: 5vh; height:50vh; width:25vw; right:10vw; z-index: 1000;">
+                <header id="header" class=" header transparent side-header-right" style="background:transparent !important;position: fixed; top: 5vh; height:50vh; width:10vw; right:10vw; z-index: 1000;">
                     <div id="header-wrap" style="background:transparent">
                         <div class="container clearfix nomargin nopadding" style="width:100%">
                             <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
@@ -33,9 +33,12 @@
                 </header>
                 <section id="content" class="full-screen with-header  clearfix" style="background: transparent;">
                     <div class="container clearfix nomargin nopadding" style="min-height:100vh; min-width: 100vw; background: transparent;">
-                        <div id="simple" style="background: white">
-                            <div id="home" class="step nomargin">
-                                <div class="col_full center nomargin nopadding" style=" display: flex;flex-direction: column-reverse;justify-content: space-between; min-height: 50vh;background: white">
+
+                        <div id="simple" style="background: white;perspective: 5500px !important;">
+
+                            <div id="home" class="step nomargin" data-x="3000" data-z="10" data-scale="15">
+                                <div class="col_full center nomargin nopadding" style=" display: flex;flex-direction: column;justify-content: space-between; min-height: 50vh;background: white">
+                                    <div></div>
                                     <div class="center divcenter row clearfix commonheight leftmargin-sm" style=" ">
                                         <h2 class=" herotext" style="background: transparent;  font-weight: 200; text-align: left"><div class="heroimage"></div>Long Term Technology <br> <b>Acceleration</b> for Web Products</h2>
                                     </div>
@@ -54,48 +57,122 @@
                                     </div>
                                 </div>
                             </div>
-                            <div id="solutions" class="step solution" data-rotate-x="90">
+
+                            <div id="solutionoverview" class="step" data-x="3000" data-rotate-x="90" data-z="10" data-scale="3" data-exclude="true" style="background: transparent !important; pointer-events: none !important;">
+                                <!-- <a href="#solutions1" class="topleft">link1</a>
+                                <a href="#solutions2" class="topright">link2</a>
+                                <a href="#solutions3" class="bottomleft">link3</a>
+                                <a href="#solutions4" class="bottomright">link4</a> -->
+                            </div>
+
+                            <div id="solutions" class="step" data-x="3000" data-z="10" data-rotate-x="90" data-scale="15">
+
+                                <div class="col_full center nomargin nopadding" style=" display: flex;flex-direction: column;justify-content: space-between; min-height: 50vh;background: white">
+
+                                    <div class="center divcenter" style=" ">
+                                        <h2 class=" herotext" style="background: transparent;  font-weight: 200; text-align: left;">This is the <b>Solutions</b> page. <br>Content to be added.<br><a id="sol"href="#solutionoverview">Know More</a></h2>
+                                    </div>
+
+                                </div>
+                                <div class="allmargin center" style="color:black;display: flex; padding: 3">
+
+                                        <div class="p-2 box1" style="border-left: 1px solid black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id purus sed tortor pretium finibus. Nulla sit amet aliquet massa. Nam eget tortor at leo ultrices condimentum. Cras eu nibh ut nunc viverra luctus vel sit amet lorem. Quisque venenatis viverra blandit. Aenean quis hendrerit justo. Nunc semper eget ex et aliquet. Sed in orci elit. Donec a elit quam. Mauris a felis sollicitudin nibh tristique imperdiet. Suspendisse id ante vitae nibh posuere varius at at justo.
+                                        </div>
+                                        <div class="p-2 box1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id purus sed tortor pretium finibus. Nulla sit amet aliquet massa. Nam eget tortor at leo ultrices condimentum. Cras eu nibh ut nunc viverra luctus vel sit amet lorem. Quisque venenatis viverra blandit. Aenean quis hendrerit justo. Nunc semper eget ex et aliquet. Sed in orci elit. Donec a elit quam. Mauris a felis sollicitudin nibh tristique imperdiet. Suspendisse id ante vitae nibh posuere varius at at justo.
+                                        </div>
+                                        <div class="p-2 box1" style="border-right: 1px solid black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id purus sed tortor pretium finibus. Nulla sit amet aliquet massa. Nam eget tortor at leo ultrices condimentum. Cras eu nibh ut nunc viverra luctus vel sit amet lorem. Quisque venenatis viverra blandit. Aenean quis hendrerit justo. Nunc semper eget ex et aliquet. Sed in orci elit. Donec a elit quam. Mauris a felis sollicitudin nibh tristique imperdiet. Suspendisse id ante vitae nibh posuere varius at at justo.
+                                        </div>
+
+                                    </div>
+                            </div>
+
+                            <div id="expertiseoverview" class="step" data-x="3000" data-rotate-x="90" data-rotate-y="90" data-z="10" data-scale="8" data-exclude="true">
+                                <a href="#solutions1" class="topleft">link1</a>
+                                <a href="#solutions2" class="topright">link2</a>
+                                <a href="#solutions3" class="bottomleft">link3</a>
+                                <a href="#solutions4" class="bottomright">link4</a>
+                            </div>
+
+                            <div id="expertise" class="step" data-x="3000" data-z="10" data-rotate-x="90" data-rotate-y="90" data-scale="15">
                                 <div class="col_full center nomargin nopadding" style=" display: flex;flex-direction: column;justify-content: space-between; min-height: 50vh;background: white">
                                     <div></div>
                                     <div class="center divcenter row clearfix commonheight leftmargin-sm" style=" ">
-                                        <h2 class=" herotext" style="background: transparent;  font-weight: 200; text-align: left"><div class="heroimage"></div>This is the <b>Solutions</b> page. <br>Content to be added. <a href="#home">home</a></h2>
+                                        <h2 class=" herotext" style="background: transparent;  font-weight: 200; text-align: left">This is the <b>Expertise</b> page.<br> Content to be added.<br><a href="#expertiseoverview">Know More</a></h2>
                                     </div>
                                 </div>
                             </div>
-                            <div id="expertise" class="step" data-rotate-x="90" data-rotate-y="90">
+
+                            <div id="careeroverview" class="step" data-x="3000" data-rotate-x="90" data-rotate-y="180" data-z="10" data-scale="8" data-exclude="true">
+                                <a href="#solutions1" class="topleft">link1</a>
+                                <a href="#solutions2" class="topright">link2</a>
+                                <a href="#solutions3" class="bottomleft">link3</a>
+                                <a href="#solutions4" class="bottomright">link4</a>
+                            </div>
+
+                            <div id="careers" class="step" data-x="3000" data-z="10" data-rotate-x="90" data-rotate-y="180" data-scale="15">
                                 <div class="col_full center nomargin nopadding" style=" display: flex;flex-direction: column;justify-content: space-between; min-height: 50vh;background: white">
                                     <div></div>
                                     <div class="center divcenter row clearfix commonheight leftmargin-sm" style=" ">
-                                        <h2 class=" herotext" style="background: transparent;  font-weight: 200; text-align: left">This is the <b>Expertise</b> page.<br> Content to be added.<a href="#home">home</a></h2>
+                                        <h2 class=" herotext" style="background: transparent;  font-weight: 200; text-align: left">This is the <b>Careers</b> page.<br>Content to be added.<br><a href="#careeroverview">Know More</a></h2>
                                     </div>
                                 </div>
                             </div>
-                            <div id="careers" class="step" data-rotate-x="90" data-rotate-y="180">
+
+                            <div id="aboutoverview" class="step" data-x="3000" data-rotate-x="90" data-rotate-y="270" data-z="10" data-scale="8" data-exclude="true">
+                                <a href="#solutions1" class="topleft">link1</a>
+                                <a href="#solutions2" class="topright">link2</a>
+                                <a href="#solutions3" class="bottomleft">link3</a>
+                                <a href="#solutions4" class="bottomright">link4</a>
+                            </div>
+
+                            <div id="about" class="step" data-x="3000" data-z="10" data-rotate-x="90" data-rotate-y="270" data-scale="15">
                                 <div class="col_full center nomargin nopadding" style=" display: flex;flex-direction: column;justify-content: space-between; min-height: 50vh;background: white">
                                     <div></div>
                                     <div class="center divcenter row clearfix commonheight leftmargin-sm" style=" ">
-                                        <h2 class=" herotext" style="background: transparent;  font-weight: 200; text-align: left">This is the <b>Careers</b> page.<br>Content to be added.<a href="#home">home</a></h2>
+                                        <h2 class=" herotext" style="background: transparent;  font-weight: 200; text-align: left">This is the <b>About</b> page.<br> Content to be added.<br><a href="#aboutoverview">Know More</a></h2>
                                     </div>
                                 </div>
                             </div>
-                            <div id="about" class="step" data-rotate-x="90" data-rotate-y="270">
-                                <div class="col_full center nomargin nopadding" style=" display: flex;flex-direction: column;justify-content: space-between; min-height: 50vh;background: white">
-                                    <div></div>
-                                    <div class="center divcenter row clearfix commonheight leftmargin-sm" style=" ">
-                                        <h2 class=" herotext" style="background: transparent;  font-weight: 200; text-align: left"><a href="#home" class="test">home</a>This is the <b>About</b> page.<br> Content to be added.</h2>
-                                    </div>
-                                </div>
+
+                            <div id="contactoverview" class="step" data-x="3000" data-rotate-x="180" data-z="10" data-scale="8" data-exclude="true">
+                                <a href="#solutions1" class="topleft">link1</a>
+                                <a href="#solutions2" class="topright">link2</a>
+                                <a href="#solutions3" class="bottomleft">link3</a>
+                                <a href="#solutions4" class="bottomright">link4</a>
                             </div>
-                            <div id="contact" class="step" data-rotate-x="180">
+
+                            <div id="contact" class="step" data-x="3000" data-z="10" data-rotate-x="180" data-scale="15">
                                 <div class="col_full center nomargin nopadding" style=" display: flex;flex-direction: column;justify-content: space-between; min-height: 50vh;background: white">
                                     <div></div>
                                     <div class="center divcenter row clearfix commonheight leftmargin-sm" style=" ">
                                         <h2 class=" herotext" style="background: transparent;  font-weight: 200; text-align: left">
-                                        This is the <b>Contact</b> page.<br>Content to be added.<a href="#home">home</a></h2>
+                                        This is the <b>Contact</b> page.<br>Content to be added.<br><a href="#contactoverview">Know More</a></h2>
                                     </div>
                                 </div>
                             </div>
+
+                            <div id="solutions1" class="step" data-x="500" data-y="8000" data-z="-1150" data-rotate-x="90" data-scale="2" data-exclude="true" style="pointer-events: auto;">
+                                <b class="topleft" style="color:black">Solutions1
+                                </b>
+                            </div>
+
+                            <div id="solutions2" class="step" data-x="4500" data-z="-1150" data-y="8000" data-rotate-x="90" data-scale="2" data-exclude="true" style="pointer-events: auto;">
+                                <b class="topleft" style="color:black">Solutions2
+                                </b>
+                            </div>
+
+                            <div id="solutions3" class="step" data-x="500" data-y="8000" data-z="1000" data-rotate-x="90" data-scale="2" data-exclude="true" style="pointer-events: auto;">
+                                <b class="topleft" style="color:black">Solutions3
+                                </b>
+                            </div>
+
+                            <div id="solutions4" class="step" data-x="4500" data-y="8000" data-z="1000" data-rotate-x="90" data-scale="2" data-exclude="true" style="pointer-events: auto;" >
+                                <b class="topleft" style="color:black">Solutons4
+                                </b>
+                            </div>
+
                         </div>
+
                         <div id="footer" class="footer" style="margin-top:95vh;">
                             <div class="col_full center nomargin nopadding" style="font-size: .9em">
                                 <i>Copyright - IdeaPortal Services Pvt Ltd - 2017</i>
@@ -109,7 +186,6 @@
             <script>
             bumbum = 1;
             setTimeout(function() {
-
                 $('#simple').jmpress({
                     animation: {
                         transformOrigin: 'center center', // Point on which to transform (unused)
@@ -121,19 +197,11 @@
                     transitionDuration: 2000 // Set this according to animation.transitionDuration
                         // It is used for setting the timeout for the transition
                 });
-
-
-
-
-
                 $(["home", "solutions", "about", "expertise", "contact"]).each(function() {
                     console.log(this);
                     console.log($('#' + this));
                     var self = this
-
                     $('#' + this).on('enterStep', function(event) {
-
-
                         jQuery.expr[":"].Contains = jQuery.expr.createPseudo(function(arg) {
                             return function(elem) {
                                 return jQuery(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
@@ -142,25 +210,39 @@
                         if ($('ul.ip_nav li a:Contains(' + self + ')')[0]) {
                             $($('ul.ip_nav li a:Contains(' + self + ')')[0]).addClass('selected')
                         }
-
                         console.log($('ul.ip_nav li a:Contains(' + self + ')')[0]);
                     });
-
                     $('#' + this).on('leaveStep', function(event) {
-
-
                         jQuery.expr[":"].Contains = jQuery.expr.createPseudo(function(arg) {
                             return function(elem) {
                                 return jQuery(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
                             };
                         });
-
                         if ($('ul.ip_nav li a:Contains(' + self + ')')[0]) {
                             $($('ul.ip_nav li a:Contains(' + self + ')')[0]).removeClass('selected')
                         }
                     });
                 });
-
-
             });
-            </script>
+            var show = document.querySelector('#sol');
+            show.addEventListener('click', function runThisOnButtonClick(event) {
+            $('#solutions1').css("opacity","1");
+            $('#solutions2').css("opacity","1");
+            $('#solutions3').css("opacity","1");
+            $('#solutions4').css("opacity","1");
+            });
+            // var hide = document.querySelector('#home','#solutions','#expertise','#contact','#about','#careers');
+            // hide.addEventListener('click', function runThisOnButtonClick(event) {
+            // $('#solutions1').css("opacity","0 !important");
+            // $('#solutions2').css("opacity","0");
+            // $('#solutions3').css("opacity","0");
+            // $('#solutions4').css("opacity","0");
+            // });
+            // setInterval(function() {
+            // if($('#simple.step-solutionoverview').length===0)
+            // {$('#solutions1').css("opacity","0")
+            // $('#solutions2').css("opacity","0")
+            // $('#solutions3').css("opacity","0")
+            // $('#solutions4').css("opacity","0")}
+            // }, 1000);
+</script>

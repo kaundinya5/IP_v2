@@ -8,7 +8,4 @@ class WelcomeController  < ApplicationController
   def solutions
 
   end
-  def circle
-
-  end
 end
