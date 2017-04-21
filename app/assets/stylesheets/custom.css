@@ -130,46 +130,7 @@ b {
     border-bottom: none;
 }
 
-.person-above {
-    text-align: center;
-    padding: 40px 0 50px;
-    min-width: 180px;
-}
 
-.person-image {
-    width: 150px;
-    border-radius: 75px;
-    box-shadow: 0 0 0 5px white, 0 0 0 6px black;
-}
-
-.person-name {
-    font-size: 23px;
-    line-height: 25px;
-    padding: 10px 0;
-    font-family: 'calluna';
-    font-variant: small-caps;
-}
-
-.person-social-link {
-    text-decoration: none;
-    font-size: 21px;
-    padding: 0 1px;
-}
-
-.person-bio a {
-    text-transform: none;
-}
-
-.person-bio p {
-    font-size: 21px;
-    font-family: "calluna";
-    line-height: 32px;
-    padding: 8px 0;
-}
-
-.person-bio p:last-child {
-    padding-bottom: 0;
-}
 
 .human {
     margin: 10px;
@@ -181,18 +142,7 @@ b {
     text-decoration: none;
 }
 
-.human-description {
-    float: right;
-    width: 500px;
-}
-
-.human-description-content {
-    padding-top: 14px;
-}
-
 .grayscale {
-    filter: url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%20id='grayscale'><feColorMatrix%20type='matrix'%20values='0.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale");
-    /* Firefox 3.5+ */
     filter: grayscale(100%);
     /* Current draft standard */
     -webkit-filter: grayscale(100%);
@@ -202,7 +152,7 @@ b {
     -o-filter: grayscale(100%);
     filter: gray;
     /* IE6+ */
-    opacity: 0.6;
+    opacity: 0.9;
 }
 
 .grayscale:hover {
