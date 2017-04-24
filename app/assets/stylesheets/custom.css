@@ -165,7 +165,7 @@ b {
     -o-filter: grayscale(100%);
     filter: gray;
     /* IE6+ */
-    opacity: 0.9;
+    opacity: 1;
 }
 
 .grayscale:hover {
