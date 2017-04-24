@@ -15,7 +15,7 @@
                             <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
                             <nav id="primary-menu">
                                 <ul class="ip_nav" style="display: flex;flex-direction: column; height: 50vh width:200px; ">
-                                    <li><a href="#baba">BabaG</a>
+                                    <li><a class="blink" href="#baba" style="color: #3AFF00">BabaG</a>
                                     </li>
                                     <li><a href="#about">About</a>
                                     </li>
@@ -59,9 +59,26 @@
                             <div id="baba" class="step" data-x="10000" data-z="10" data-rotate-x="90" data-scale="15">
 
                                 <div class="col_full center nomargin nopadding" style=" display: flex;flex-direction: column-reverse;justify-content: space-between; min-height: 50vh;background: white">
-
+                                    <div class="babag"></div>
                                     <div class="center divcenter row clearfix commonheight leftmargin-sm" style=" ">
-                                        <h2 class=" herotext" style="background: transparent;  font-weight: 200; text-align: left;"><div class="heroimage"></div></h2>
+                                        <h2 class=" herotext" style="background: transparent;  font-weight: 200;">
+                                            <div class="heroimage"></div>
+                                            <b style="text-align: right; font-size: 50px">BabaG</b><br><i style="text-align: center; font-size: 35px">Namma smart friend!</i>
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div class="col_full center nomargin nopadding" style=" min-height: 50vh; max-height:50vh; background: #F7F5E9">
+
+                                    <div class="center divcenter row clearfix commonheight " style="background:transparent; margin-top: 4vh">
+
+                                        <br>
+                                        <br>
+
+                                        <a class="button button-large button-border button-rounded tright" style="margin-right: 200px; width: 150px;padding: 0px 43px"><b style="text-align:center;">What?</b></a>
+
+                                        <a class="button button-large button-border button-rounded tright" style=" width: 150px; padding: 0px 43px"><b style="text-align:center;">Why?</b></a>
+
+                                        <a class="button button-large button-border button-rounded tright" style="margin-left: 200px; width: 150px; padding: 0px 43px"><b style="text-align:center;">Who?</b></a>
                                     </div>
                                 </div>
                             </div>
@@ -258,25 +275,12 @@
                     });
                 });
             });
-            var show = document.querySelector('#sol');
-            show.addEventListener('click', function runThisOnButtonClick(event) {
-                $('#solutions1').css("opacity", "1");
-                $('#solutions2').css("opacity", "1");
-                $('#solutions3').css("opacity", "1");
-                $('#solutions4').css("opacity", "1");
-            });
-            // var hide = document.querySelector('#home','#solutions','#expertise','#contact','#about','#careers');
-            // hide.addEventListener('click', function runThisOnButtonClick(event) {
-            // $('#solutions1').css("opacity","0 !important");
-            // $('#solutions2').css("opacity","0");
-            // $('#solutions3').css("opacity","0");
-            // $('#solutions4').css("opacity","0");
-            // });
-            // setInterval(function() {
-            // if($('#simple.step-solutionoverview').length===0)
-            // {$('#solutions1').css("opacity","0")
-            // $('#solutions2').css("opacity","0")
-            // $('#solutions3').css("opacity","0")
-            // $('#solutions4').css("opacity","0")}
-            // }, 1000);
+
+            function toggle(id) {
+                var el = document.getElementById(id);
+                if (el.style.display == 'block')
+                    el.style.display = 'none';
+                else
+                    el.style.display = 'block';
+            }
             </script>

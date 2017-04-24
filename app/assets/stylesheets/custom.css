@@ -107,6 +107,21 @@ b {
     float: left;
 }
 
+.babag {
+    background-image: url('BabaG.png');
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 20vh;
+    height: 50vh;
+    content: "";
+    left: 46.5vw;
+    bottom: -83vh;
+    padding-top: 66.64%;
+    float: center;
+}
+
 .section-content-more {
     padding-top: 2em;
 }
@@ -129,8 +144,6 @@ b {
 .person:last-child {
     border-bottom: none;
 }
-
-
 
 .human {
     margin: 10px;
@@ -161,6 +174,32 @@ b {
     -webkit-filter: grayscale(0);
 }
 
+.blink {
+    animation-duration: 3000ms;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    /*animation-direction: alternate;*/
+}
+
+@keyframes blink {
+    0% {
+    opacity: 1;
+  }
+
+  49.99% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+
+  99.99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 @media screen and (max-width: 1200px) {
     .herotext::before {
