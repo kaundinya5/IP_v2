@@ -3,7 +3,7 @@ class WelcomeController  < ApplicationController
 
   end
   def jmpress
-
+    @contact = Contact.new
   end
   def solutions
 
