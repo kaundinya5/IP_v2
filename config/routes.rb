@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   # get 'foo' => "welcome#jmpress"
   # get 'solutions' => "welcome#solutions"
   get 'circular' => "welcome#circle"
+  resources "contacts", only: [:new, :create]
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
