@@ -6,6 +6,9 @@ class ContactsController < ApplicationController
   def create
     @contact = Contact.new(contact_params)
     @contact.save
+    respond_to do |format|
+            format.js { render 'contacts/update.js.erb'}
+        end
   end
 
   private
