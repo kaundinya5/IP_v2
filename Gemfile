@@ -44,4 +44,5 @@ group :development do
 end
 gem "font-awesome-rails"
 gem 'bootstrap_form'
+gem 'rails_12factor'
 
