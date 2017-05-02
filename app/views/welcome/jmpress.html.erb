@@ -65,6 +65,8 @@
                                             <div class="babag"></div>
                                             <div class="heroimage"></div>
                                             <b style="text-align: right; font-size: 50px">BabaG</b><br><i style="text-align: center; font-size: 35px;font-family: 'Cantarell', sans-serif;">Namma smart friend!</i>
+                                            <br>
+
                                         </h2>
                                     </div>
                                 </div>
@@ -75,7 +77,7 @@
                                         <br>
                                         <br>
 
-                                        <button id="babag-what" class="button button-large button-border button-rounded tright" style="float: left; left: 10%; width: auto; padding: 0px 43px"><b style="text-align:center;">What?</b></button>
+                                        <button id="babag-what" class="button button-large button-border button-rounded tright" style="float: left; left: 10%; width: auto; padding: 0px 43px"><b style="text-align:center;"data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">What?</b></button>
                                         <p id="babag-what-answer" style='float: left; left: 10%; display:none;color:black;'>foo foo bar bar
                                             <br> foo bar foo bar</p>
 
@@ -89,7 +91,7 @@
                                         </p>
                                         <br><br><br><br><br><br>
                                         <a href="https://www.facebook.com/babaglive/" target="_blank"> <i class="col icon-facebook-sign" style="font-size:50px;color:#3b5998"></i></a>
-                                        <i class="col fa fa-whatsapp" style="font-size:50px;color:#34af23"></i>
+                                        <a href="#baba"><i class="col fa fa-whatsapp" style="font-size:50px;color:#34af23" data-toggle="popover" data-placement="top" data-content="Send us a hi on 733-832-2224 to get started"></i></a>
 
 
                                     </div>
@@ -457,5 +459,8 @@
                     $('#careers6-answer').hide(1000);
                     $('#careers6').show();
                 })
+            });
+            $(function () {
+                $('[data-toggle="popover"]').popover()
             });
             </script>
