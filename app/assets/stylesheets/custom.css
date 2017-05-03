@@ -107,7 +107,10 @@ b {
     float: left;
 }
 
-
+#button-wrapper {
+    width: 50%;
+    margin: 0 auto;
+}
 
 .babag {
     background-image: url('BabaG.png');
