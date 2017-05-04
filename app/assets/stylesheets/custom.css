@@ -305,4 +305,10 @@ b {
     .other_content{
         font-size: 11px;
     }
+    .IP_button{
+        padding: 0px 20px !important;
+    }
+    .career_button{
+        padding: 0px 10px !important;
+    }
 }
