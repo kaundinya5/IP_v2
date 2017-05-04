@@ -5,7 +5,7 @@
         <body class="stretched ">
             <div id="wrapper" class=" fallback-message clearfix" style="background: transparent;">
                 <div href="#home" id="logo">
-                    <a href="#home" class="standard-logo" data-dark-logo="assets/logo.png"><img href="#home" style="height:100px; position: fixed; top: 5vh; left:2.5vw; z-index: 1000;" src="assets/logo.png" alt="IdeaPortal Logo"></a>
+                    <a href="#home" class="standard-logo" data-dark-logo="assets/logo.png"><img class="IP_logo" href="#home" style="height:100px; position: fixed; top: 5vh; left:2.5vw; z-index: 1000;" src="assets/logo.png" alt="IdeaPortal Logo"></a>
                     <a href="#home" class="retina-logo" data-dark-logo="assets/logo.png"><img src="assets/logo.png" alt="IdeaPortal Logo"></a>
                 </div>
                 <!-- #logo end -->
@@ -353,7 +353,7 @@
                                         </h2>
                                     </div>
                                 </div>
-                                <div class="content-box col_full center nomargin nopadding" style=" min-height: 50vh; max-height:50vh; background: #F7F5E9">
+                                <div class="content-box col_full center nomargin nopadding IP_form" style=" min-height: 50vh; max-height:50vh; background: #F7F5E9">
 
                                     <div class="center divcenter row clearfix commonheight " style="background:transparent; margin-top: 4vh">
                                         <%= bootstrap_form_for @contact,label_errors: true, inline_errors: true, url: contacts_path, method: :post, :remote => true do |f|%>

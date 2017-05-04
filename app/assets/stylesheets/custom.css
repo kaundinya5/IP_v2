@@ -311,4 +311,12 @@ b {
     .career_button{
         padding: 0px 10px !important;
     }
+    .IP_form{
+        line-height: 0.5;
+    }
+    .IP_logo{
+        height: 50px !important;
+        top: 10vh !important;
+    }
 }
+
