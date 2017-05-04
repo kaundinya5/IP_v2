@@ -318,5 +318,12 @@ b {
         height: 50px !important;
         top: 10vh !important;
     }
+    .section-content-more{
+        padding-top: 0 !important;
+        margin-top: -3% !important;
+    }
+    .human{
+        margin: 0px !important;
+    }
 }
 
