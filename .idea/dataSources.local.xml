@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails idea_portal_v2: development" uuid="da5a6ade-f581-4332-a96d-fc4cdef4eb3d">
+      <database-info product="PostgreSQL" version="9.6.2" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>achal</user-name>
+      <introspection-schemas>ideaportal_development:public</introspection-schemas>
+    </data-source>
+    <data-source name="Rails idea_portal_v2: production" uuid="46750a83-1204-44a4-bdae-8a2fc0d14c97">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+      <user-name>achal</user-name>
+    </data-source>
+    <data-source name="Rails idea_portal_v2: test" uuid="de3d8169-6b35-4608-8938-22a3de095d86">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+      <user-name>achal</user-name>
+    </data-source>
+  </component>
+</project>

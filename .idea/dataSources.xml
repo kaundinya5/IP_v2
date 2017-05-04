@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Rails idea_portal_v2: development" uuid="da5a6ade-f581-4332-a96d-fc4cdef4eb3d">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/ideaportal_development</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails idea_portal_v2: production" uuid="46750a83-1204-44a4-bdae-8a2fc0d14c97">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/ideaportal_production</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails idea_portal_v2: test" uuid="de3d8169-6b35-4608-8938-22a3de095d86">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/ideaportal_test&lt;%= ENV['TEST_ENV_NUMBER'] %&gt;</jdbc-url>
+    </data-source>
+  </component>
+</project>
