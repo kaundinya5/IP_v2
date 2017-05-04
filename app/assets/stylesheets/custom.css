@@ -107,11 +107,6 @@ b {
     float: left;
 }
 
-#button-wrapper {
-    width: 50%;
-    margin: 0 auto;
-}
-
 .babag {
     background-image: url('BabaG.png');
     background-position: top;
@@ -186,25 +181,57 @@ b {
     /*animation-direction: alternate;*/
 }
 
+.IP_heading {
+    text-align: right;
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+.IP_subheading {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Cantarell', sans-serif;
+}
+
+.IP_content {
+    color: black;
+    font-weight: 200;
+    font-size: 25px;
+    font-family: 'Playball', cursive;
+}
+
+.about_content {
+    text-align: left;
+    font-family: 'Cardo', serif;
+}
+
+.about_heading {
+    font-family: museo-sans-condensed;
+    letter-spacing: 1px;
+}
+
+.other_content {
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Cardo', serif;
+}
 
 @keyframes blink {
     0% {
-    opacity: 1;
-  }
-
-  49.99% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-
-  99.99% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+        opacity: 1;
+    }
+    49.99% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    99.99% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -233,15 +260,49 @@ b {
         line-height: 25px !important;
         height: 30px !important;
     }
-    .heroimage {
-        width: 40vh;
-        height: 40vh;
-        bottom: 0;
-    }
 }
 
 @media screen and (max-width: 500px) {
     .herotext::before {
         display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .babag {
+        width: 15vw;
+        height: 20vh;
+        left: 42vw;
+    }
+    .IP_heading {
+        font-size: 30px;
+    }
+    .IP_subheading {
+        font-size: 20px;
+    }
+    .IP_content {
+        font-size: 15px;
+    }
+    .heroimage {
+        width: 20vh;
+        height: 50vh;
+        bottom: 0;
+        left: -27%;
+    }
+    .about_content{
+        font-size: 11px;
+        letter-spacing: -1px;
+        line-height: 10.5px !important;
+    }
+    .about_heading {
+        font-size: 10px !important;
+        line-height: 10px !important;
+        text-align: left;
+    }
+    .about_icon {
+        font-size: 16px !important;
+    }
+    .other_content{
+        font-size: 11px;
     }
 }
