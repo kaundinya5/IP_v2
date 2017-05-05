@@ -338,4 +338,7 @@ b {
     .human {
         margin: 0px !important;
     }
+    #myNavbar{
+        background: white;
+    }
 }
