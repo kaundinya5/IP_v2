@@ -42,9 +42,9 @@ body .secondary_cta,
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
-    /*visibility: hidden;*/
+    visibility: hidden;
     opacity: 0;
-    transition: visibility .1s, opacity 1.2s linear;
+    transition: visibility .1s, opacity .2s linear;
 }
 
 .ip_nav li .selected {
