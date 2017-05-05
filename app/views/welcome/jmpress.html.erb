@@ -12,7 +12,7 @@
                 <header id="header" class=" header transparent side-header-right" style="background:transparent !important;position: fixed; top: 5vh; height:50vh; width:10vw; right:10vw; z-index: 1000;">
                     <div id="header-wrap" style="background:transparent">
                         <div class="container clearfix nomargin nopadding" style="width:100%">
-                            <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+                            <div id="primary-menu-trigger" style="pointer-events:auto;"><i class="icon-reorder"></i></div>
                             <nav id="primary-menu">
                                 <ul class="ip_nav mobile-menu" style="display: flex;flex-direction: column; height: 50vh">
                                     <li><a class="blink" href="#baba" style="color: #3AFF00">BabaG</a>
@@ -495,4 +495,12 @@
             $(function () {
                 $('[data-toggle="popover"]').popover()
             });
+            function myFunction() {
+                var x = document.getElementById("primary-menu");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
             </script>
