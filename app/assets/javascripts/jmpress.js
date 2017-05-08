@@ -943,11 +943,11 @@
 		}
 	}());
 
-	if(!engine) {
-		$.jmpress("checkNoSupport", function() {
-			return true;
-		});
-	}
+	// if(!engine) {
+	// 	$.jmpress("checkNoSupport", function() {
+	// 		return true;
+	// 	});
+	// }
 
 	var jmpressDefaults = $.jmpress("defaults");
 	jmpressDefaults.reasonableAnimation = {};
