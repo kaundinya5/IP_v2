@@ -18,6 +18,48 @@ body .secondary_cta,
     border: 1px solid transparent;
 }
 
+#IP_top {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    min-height: 50vh;
+    background: white;
+}
+
+#IP_contact {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    min-height: 25vh;
+    background: white;
+}
+
+@-moz-document url-prefix() {
+    #fireimage{
+        bottom: -1.5vh;
+    }
+    #IP_top {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        min-height: 50vh;
+        background: white;
+    }
+    #text {
+        margin-top: 28vh;
+    }
+     #contact_text {
+        margin-top: 18vh;
+    }
+    #IP_contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 25vh;
+        background: white;
+    }
+}
+
 .ip_nav li a {
     line-height: 3.5vh !important;
     height: 3.5vh !important;
@@ -56,7 +98,6 @@ body .secondary_cta,
     opacity: 1;
     transition: visibility .1s, opacity 1.2s linear;
 }
-
 
 .icon-reorder {
     line-height: 21vh !important;
@@ -338,7 +379,7 @@ b {
     .human {
         margin: 0px !important;
     }
-    #myNavbar{
+    #myNavbar {
         background: white;
     }
 }
