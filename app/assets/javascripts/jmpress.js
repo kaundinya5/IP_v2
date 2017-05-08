@@ -553,7 +553,7 @@
 		 */
 		function checkSupport() {
 			var ua = navigator.userAgent.toLowerCase();
-			return (ua.search(/(iphone)|(ipod)|(android)/) === -1) || (ua.search(/(chrome)/) !== -1);
+			return (ua.search(/(iphone)|(ipod)|(android)/) !== -1) || (ua.search(/(chrome)|(safari)|(firefox)/) !== -1);
 		}
 
 		// BEGIN INIT
@@ -943,11 +943,11 @@
 		}
 	}());
 
-	// if(!engine) {
-	// 	$.jmpress("checkNoSupport", function() {
-	// 		return true;
-	// 	});
-	// }
+	if(!engine) {
+		$.jmpress("checkNoSupport", function() {
+			return true;
+		});
+	}
 
 	var jmpressDefaults = $.jmpress("defaults");
 	jmpressDefaults.reasonableAnimation = {};
