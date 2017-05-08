@@ -43,6 +43,7 @@ group :development do
 end
 gem 'bootstrap_form'
 gem 'font-awesome-rails'
-gem 'puma'
-gem 'rails_12factor'
 gem 'localtunnel'
+gem 'puma'
+gem 'puma-heroku'
+gem 'rails_12factor'
