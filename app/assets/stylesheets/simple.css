@@ -1,17 +1,12 @@
 /** GENERAL **/
 
-
-/** {
-	-webkit-transform-style: preserve-3d !important;
-
-	transform-style: preserve-3d !important;
-	-webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  pointer-events: none;
-*/
-
-
-/*}*/
+* {
+    /*-webkit-transform-style: preserve-3d !important;*/
+    /*transform-style: preserve-3d !important;*/
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    pointer-events: auto;
+}
 
 .box1 {
     border-top: 1px solid black;
@@ -90,7 +85,7 @@ body {
 
 
 /*.active *{
-	pointer-events: auto !important;
+    pointer-events: auto !important;
 
 }*/
 
@@ -160,14 +155,14 @@ body {
     }
     /*#simple {
 
-		width: auto;
-		margin: 0 5%;
-		padding: 0;
-		border: 0;
-		float: none !important;
-		color: black;
-		background: transparent;
-	}*/
+        width: auto;
+        margin: 0 5%;
+        padding: 0;
+        border: 0;
+        float: none !important;
+        color: black;
+        background: transparent;
+    }*/
     .step {
         page-break-after: always;
         opacity: 1;
