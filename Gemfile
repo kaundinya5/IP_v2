@@ -46,4 +46,4 @@ gem 'font-awesome-rails'
 gem 'localtunnel'
 gem 'puma'
 gem 'puma-heroku'
-gem 'rails_12factor'
+gem 'rails_12factor', group: :production
