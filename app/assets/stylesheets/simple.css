@@ -137,11 +137,11 @@ body {
 
 /** NOT SUPPORTED STYLES **/
 
-.not-supported .step {
+/*.not-supported .step {
     position: relative;
     opacity: 1;
     margin: 20px auto;
-}
+}*/
 
 
 /** PRINT STYLE **/
