@@ -35,7 +35,7 @@ body .secondary_cta,
 }
 
 @-moz-document url-prefix() {
-    #fireimage{
+    #fireimage {
         bottom: -1.5vh;
     }
     #IP_top {
@@ -48,7 +48,7 @@ body .secondary_cta,
     #text {
         margin-top: 28vh;
     }
-     #contact_text {
+    #contact_text {
         margin-top: 18vh;
     }
     #IP_contact {
@@ -162,18 +162,8 @@ b {
 }
 
 .babag {
-    background-image: url('BabaG.png');
-    background-position: top;
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
     width: 20vh;
-    height: 50vh;
-    content: "";
-    left: 14vw;
-    bottom: 1vh;
-    padding-top: 66.64%;
-    float: center;
+    margin-left: 10%;
 }
 
 .section-content-more {
@@ -324,9 +314,7 @@ b {
 
 @media screen and (max-width: 500px) {
     .babag {
-        width: 15vw;
-        height: 20vh;
-        left: 42vw;
+        width: 15vh;
     }
     .IP_heading {
         font-size: 30px;
