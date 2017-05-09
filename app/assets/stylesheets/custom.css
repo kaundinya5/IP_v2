@@ -152,10 +152,10 @@ b {
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    width: 50vh;
+    width: 38vw;
     height: 50vh;
     content: "";
-    left: -20vw;
+    left: -23vw;
     bottom: 0;
     padding-top: 66.64%;
     float: left;
