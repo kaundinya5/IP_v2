@@ -1,12 +1,6 @@
 /** GENERAL **/
 
-* {
-    /*-webkit-transform-style: preserve-3d !important;*/
-    /*transform-style: preserve-3d !important;*/
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    pointer-events: auto;
-}
+
 
 .box1 {
     border-top: 1px solid black;
