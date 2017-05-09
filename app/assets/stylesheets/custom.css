@@ -218,6 +218,12 @@ b {
     -webkit-filter: grayscale(0);
 }
 
+#primary-menu-trigger::before{
+    display: initial !important;
+    pointer-events: auto;
+
+}
+
 .blink {
     animation-duration: 3000ms;
     animation-name: blink;
@@ -357,8 +363,8 @@ b {
         line-height: 0.5;
     }
     .IP_logo {
-        height: 50px !important;
-        top: 10vh !important;
+        height: 17vh !important;
+        top: 3vh !important;
     }
     .section-content-more {
         padding-top: 0 !important;

@@ -12,7 +12,8 @@
                 <header id="header" class=" header transparent side-header-right" style="background:transparent !important;position: fixed; top: 5vh; height:50vh; width:10vw; right:10vw; z-index: 1000;">
                     <div id="header-wrap" style="background:transparent">
                         <div class="container clearfix nomargin nopadding" style="width:100%">
-                            <div id="primary-menu-trigger" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="pointer-events:auto;"><i class="icon-reorder" style=""></i></div>
+                           <!--  <div id="primary-menu-trigger" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="pointer-events:auto;"> -->
+                           <i id="primary-menu-trigger" class="navbar-toggle icon-reorder" data-toggle="collapse" data-target="#myNavbar" style=""></i> <!-- </div> -->
                             <div class="collapse navbar-collapse" id="myNavbar">
                                 <nav id="primary-menu" class="navbar">
 
@@ -501,7 +502,7 @@
             });
             $('.icon-reorder').click(function() {
                 $(this).css("line-height","41vh");
-                $(this).css("margin-left","-8vw");
+                $(this).css("margin-left","2vw");
                 $(this).toggleClass('icon-reorder');
                 $(this).toggleClass('fa fa-times');
             });
