@@ -292,13 +292,13 @@ b {
     }
 }
 
-@media screen and (max-width: 1200px) {
+/*@media screen and (max-width: 1200px) {
     .herotext::before {
         left: -25vw;
     }
-}
+}*/
 
-@media screen and (max-width: 800px) {
+/*@media screen and (max-width: 800px) {
     .secondary_cta_container {
         padding-top: 5vh;
     }
@@ -318,7 +318,7 @@ b {
         line-height: 25px !important;
         height: 30px !important;
     }
-}
+}*/
 
 @media screen and (max-width: 500px) {
     .herotext::before {
@@ -384,4 +384,25 @@ b {
     #myNavbar {
         background: white;
     }
+    #primary-menu-trigger {
+        margin-left: 10vw !important;
+    }
 }
+
+@media screen and (max-width: 768px) {
+    #myNavbar {
+        margin-left: 6vw;
+    }
+}
+@media screen and (max-width: 767px) {
+    #primary-menu-trigger {
+        margin-left: 12vw;
+    }
+}
+@media screen and (max-width: 375px) {
+    #primary-menu-trigger {
+        margin-left: 9vw !important;
+    }
+}
+
+
