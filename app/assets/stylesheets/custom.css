@@ -36,7 +36,7 @@ body .secondary_cta,
 
 #ip_second_div {
     background: transparent;
-    margin-top: 4vh
+    margin-top: 4vh;
 }
 
 #main_div {
@@ -419,65 +419,59 @@ b {
     .other_content {
         font-size: 11px;
     }
+    .IP_button {
+        padding: 0px 20px !important;
+    }
+    .career_button {
+        padding: 0px 10px !important;
+    }
+    .IP_form {
+        line-height: 0.5;
+    }
+    .IP_logo {
+        height: 17vh !important;
+        top: 3vh !important;
+    }
+    .section-content-more {
+        padding-top: 0 !important;
+        margin-top: -3% !important;
+    }
+    .human {
+        margin: 0px !important;
+    }
+    #myNavbar {
+        background: white;
+        margin-left: -4vw !important;
+    }
+    #primary-menu-trigger {
+        margin-left: 10vw !important;
+    }
 }
 
-.IP_button {
-    padding: 0px 20px !important;
-}
-
-.career_button {
-    padding: 0px 10px !important;
-}
-
-.IP_form {
-    line-height: 0.5;
-}
-
-.IP_logo {
-    height: 17vh !important;
-    top: 3vh !important;
-}
-
-.section-content-more {
-    padding-top: 0 !important;
-    margin-top: -3% !important;
-}
-
-.human {
-    margin: 0px !important;
-}
-
-#myNavbar {
-    background: white;
-    margin-left: -4vw !important;
-}
-
-#primary-menu-trigger {
-    margin-left: 10vw !important;
-}
-
-
-}
 @media screen and (max-width: 767px) {
     #myNavbar {
         margin-left: 6vw;
     }
 }
+
 @media screen and (max-width: 320px) {
     #myNavbar {
         margin-left: -5vw !important;
     }
 }
+
 @media screen and (max-width: 767px) {
     #primary-menu-trigger {
         margin-left: 12vw !important;
     }
 }
+
 @media screen and (max-width: 375px) {
     #primary-menu-trigger {
         margin-left: 9vw !important;
     }
 }
+
 @media screen and (min-width: 768px) {
     #myNavbar {
         margin-left: 7vw !important;
