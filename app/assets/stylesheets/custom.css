@@ -97,7 +97,7 @@ body .secondary_cta,
     }
 }
 
-/*@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
     @media screen {
         .heroimage {
             background-image: url('back.png');
@@ -117,7 +117,7 @@ body .secondary_cta,
             margin-left: 25vw !important;
         }
     }
-}*/
+}
 
 .ip_nav li a {
     line-height: 3.5vh !important;
