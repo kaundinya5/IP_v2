@@ -98,7 +98,7 @@ body .secondary_cta,
 }
 
 @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
-    @media {
+    @media screen {
         .heroimage {
             background-image: url('back.png');
             background-position: bottom;
