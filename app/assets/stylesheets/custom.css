@@ -18,6 +18,43 @@ body .secondary_cta,
     border: 1px solid transparent;
 }
 
+.herotext {
+    background: transparent;
+    font-weight: 200;
+}
+
+#simple {
+    background: white;
+    perspective: 5500px !important;
+}
+
+#ip_first_div {
+    min-height: 50vh;
+    max-height: 50vh;
+    background: #F7F5E9
+}
+
+#ip_second_div {
+    background: transparent;
+    margin-top: 4vh
+}
+
+#main_div {
+    min-height: 100vh;
+    min-width: 100vw;
+    background: transparent;
+}
+
+.ip_header {
+    background: transparent !important;
+    position: fixed !important;
+    top: 5vh !important;
+    height: 50vh !important;
+    width: 10vw !important;
+    right: 10vw !important;
+    z-index: 1000 !important;
+}
+
 #IP_top {
     display: flex;
     flex-direction: column-reverse;
@@ -218,13 +255,12 @@ b {
     -webkit-filter: grayscale(0);
 }
 
-#primary-menu-trigger::before{
+#primary-menu-trigger::before {
     display: initial !important;
     pointer-events: auto;
-
 }
 
-.form-control{
+.form-control {
     width: 50% !important;
     margin-left: auto !important;
     margin-right: auto !important;
@@ -395,25 +431,27 @@ b {
         margin-left: 6vw;
     }
 }
+
 @media screen and (max-width: 320px) {
     #myNavbar {
         margin-left: -5vw !important;
     }
 }
+
 @media screen and (max-width: 767px) {
     #primary-menu-trigger {
         margin-left: 12vw !important;
     }
 }
+
 @media screen and (max-width: 375px) {
     #primary-menu-trigger {
         margin-left: 9vw !important;
     }
 }
+
 @media screen and (min-width: 768px) {
     #myNavbar {
         margin-left: 7vw !important;
     }
 }
-
-
