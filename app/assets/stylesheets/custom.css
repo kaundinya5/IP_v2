@@ -292,11 +292,11 @@ b {
     }
 }
 
-/*@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     .herotext::before {
         left: -25vw;
     }
-}*/
+}
 
 @media screen and (max-width: 800px) {
     .secondary_cta_container {
@@ -383,25 +383,36 @@ b {
     }
     #myNavbar {
         background: white;
+        margin-left: -4vw !important;
     }
     #primary-menu-trigger {
         margin-left: 10vw !important;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     #myNavbar {
         margin-left: 6vw;
     }
 }
+@media screen and (max-width: 320px) {
+    #myNavbar {
+        margin-left: -5vw !important;
+    }
+}
 @media screen and (max-width: 767px) {
     #primary-menu-trigger {
-        margin-left: 12vw;
+        margin-left: 12vw !important;
     }
 }
 @media screen and (max-width: 375px) {
     #primary-menu-trigger {
         margin-left: 9vw !important;
+    }
+}
+@media screen and (min-width: 768px) {
+    #myNavbar {
+        margin-left: 7vw !important;
     }
 }
 

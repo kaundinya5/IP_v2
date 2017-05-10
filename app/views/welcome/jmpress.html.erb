@@ -1,5 +1,6 @@
 <%=stylesheet_link_tag "simple" %>
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+<link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
         </head>
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Playball|Cardo|Cantarell:400i" rel="stylesheet">
         <body class="stretched ">
@@ -230,10 +231,6 @@
                                                 <img alt="Achal Kaundinya" class="human grayscale" src="assets/Achal.jpg" />
                                             </a>
 
-                                            <a class="person-link IP_person" href="https://www.linkedin.com/in/bharat-ganesh-01042053/" target="_blank">
-                                                <img alt="Bharat Ganesh" class="human grayscale" src="assets/Bharat.jpg" />
-                                            </a>
-
                                             <a class="person-link IP_person" href="https://www.linkedin.com/in/darshanputtannaiah/" target="_blank">
                                                 <img alt="Darshan Puttanaiha" class="human grayscale" src="assets/Darshan.jpg" />
                                             </a>
@@ -245,23 +242,13 @@
                                             <a class="person-link IP_person" href="https://www.linkedin.com/in/kratik-nayak-a75012b6/" target="_blank">
                                                 <img alt="Kratik Nayak" class="human grayscale" src="assets/Kratik.jpg" />
                                             </a>
-
                                             <br>
-
                                             <a class="person-link IP_person" href="https://www.linkedin.com/in/krishna-m-v-89a349137/" target="_blank">
                                                 <img alt="Krishna MV" class="human grayscale" src="assets/Krishna.jpg" />
                                             </a>
 
                                             <a class="person-link IP_person" href="https://www.linkedin.com/in/nikhil-vallishayee-81990615/" target="_blank">
                                                 <img alt="Nikhil V V" class="human grayscale" src="assets/Nik.jpg" />
-                                            </a>
-
-                                            <a class="person-link IP_person" href="https://www.linkedin.com/in/shyamal-bhat-65645796/" target="_blank">
-                                                <img alt="Shymal Bhatt" class="human grayscale" src="assets/Shyamal.jpg" />
-                                            </a>
-
-                                            <a class="person-link IP_person" href="https://www.linkedin.com/in/vikram-devaiah-39156976/" target="_blank">
-                                                <img alt="Vikram" class="human grayscale" src="assets/Vikram.jpg" />
                                             </a>
                                         </p>
 
@@ -383,7 +370,6 @@
         </body>
         <%= javascript_include_tag 'jmpress' %>
             <script>
-            bumbum = 1;
             setTimeout(function() {
                 $('#simple').jmpress({
                     animation: {
@@ -502,7 +488,7 @@
             });
             $('.icon-reorder').click(function() {
                 $(this).css("line-height","41vh");
-                $(this).css("margin-left","2vw");
+                $(this).css("margin-left","2vw !important");
                 $(this).toggleClass('icon-reorder');
                 $(this).toggleClass('fa fa-times');
             });
