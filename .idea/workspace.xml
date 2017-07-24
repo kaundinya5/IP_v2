@@ -38,17 +38,19 @@
       <file leaf-file-name="jmpress.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/welcome/jmpress.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="95" column="52" lean-forward="false" selection-start-line="95" selection-start-column="52" selection-end-line="95" selection-end-column="52" />
+            <state relative-caret-position="255">
+              <caret line="95" column="187" lean-forward="false" selection-start-line="95" selection-start-column="44" selection-end-line="95" selection-end-column="187" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#a#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#a#1;n#h2#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#div#3;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#p#0;n#h2#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#div#4;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#div#5;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#footer#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <marker date="1500902798983" expanded="false" signature="5733:5761" ph="..." />
+                <marker date="1500904824620" expanded="false" signature="5825:5853" ph="..." />
               </folding>
             </state>
           </provider>
@@ -375,12 +377,12 @@
       <updated>1483706809400</updated>
       <workItem from="1493903132035" duration="1092000" />
       <workItem from="1500890289232" duration="2306000" />
-      <workItem from="1500899194914" duration="3224000" />
+      <workItem from="1500899194914" duration="5313000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9255000" />
+    <option name="totallyTimeSpent" value="11344000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -796,17 +798,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcome/jmpress.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="95" column="52" lean-forward="false" selection-start-line="95" selection-start-column="52" selection-end-line="95" selection-end-column="52" />
+        <state relative-caret-position="255">
+          <caret line="95" column="187" lean-forward="false" selection-start-line="95" selection-start-column="44" selection-end-line="95" selection-end-column="187" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#1;n#h2#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#div#2;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
             <element signature="n#p#0;n#h2#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#footer#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <marker date="1500902798983" expanded="false" signature="5733:5761" ph="..." />
+            <marker date="1500904824620" expanded="false" signature="5825:5853" ph="..." />
           </folding>
         </state>
       </provider>
