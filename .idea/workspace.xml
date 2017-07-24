@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40f1ad66-0dfd-460a-a0d1-24fe0dd3236c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/Daksha.jpg" afterPath="$PROJECT_DIR$/app/assets/images/Daksha.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/Divya.jpg" afterPath="$PROJECT_DIR$/app/assets/images/Divya.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/Harsha.jpg" afterPath="$PROJECT_DIR$/app/assets/images/Harsha.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/jmpress.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome/jmpress.html.erb" />
     </list>
     <ignored path="idea_portal_v2.iws" />
@@ -39,8 +41,8 @@
       <file leaf-file-name="jmpress.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/welcome/jmpress.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="286" column="102" lean-forward="false" selection-start-line="286" selection-start-column="102" selection-end-line="286" selection-end-column="102" />
+            <state relative-caret-position="260">
+              <caret line="272" column="40" lean-forward="false" selection-start-line="272" selection-start-column="40" selection-end-line="272" selection-end-column="40" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
@@ -375,12 +377,12 @@
       <updated>1483706809400</updated>
       <workItem from="1493903132035" duration="1092000" />
       <workItem from="1500890289232" duration="2306000" />
-      <workItem from="1500899194914" duration="1901000" />
+      <workItem from="1500899194914" duration="2564000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7932000" />
+    <option name="totallyTimeSpent" value="8595000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -796,8 +798,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcome/jmpress.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="286" column="102" lean-forward="false" selection-start-line="286" selection-start-column="102" selection-end-line="286" selection-end-column="102" />
+        <state relative-caret-position="260">
+          <caret line="272" column="40" lean-forward="false" selection-start-line="272" selection-start-column="40" selection-end-line="272" selection-end-column="40" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
