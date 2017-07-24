@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40f1ad66-0dfd-460a-a0d1-24fe0dd3236c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/Daksha.jpg" afterPath="$PROJECT_DIR$/app/assets/images/Daksha.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/Divya.jpg" afterPath="$PROJECT_DIR$/app/assets/images/Divya.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/Harsha.jpg" afterPath="$PROJECT_DIR$/app/assets/images/Harsha.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/jmpress.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome/jmpress.html.erb" />
     </list>
     <ignored path="idea_portal_v2.iws" />
@@ -41,16 +38,17 @@
       <file leaf-file-name="jmpress.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/welcome/jmpress.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="272" column="40" lean-forward="false" selection-start-line="272" selection-start-column="40" selection-end-line="272" selection-end-column="40" />
+            <state relative-caret-position="473">
+              <caret line="95" column="52" lean-forward="false" selection-start-line="95" selection-start-column="52" selection-end-line="95" selection-end-column="52" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#p#0;n#h2#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#div#4;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#div#5;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#footer#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <marker date="1500902798983" expanded="false" signature="5733:5761" ph="..." />
               </folding>
             </state>
           </provider>
@@ -377,12 +375,12 @@
       <updated>1483706809400</updated>
       <workItem from="1493903132035" duration="1092000" />
       <workItem from="1500890289232" duration="2306000" />
-      <workItem from="1500899194914" duration="2564000" />
+      <workItem from="1500899194914" duration="3224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8595000" />
+    <option name="totallyTimeSpent" value="9255000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -798,16 +796,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcome/jmpress.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="272" column="40" lean-forward="false" selection-start-line="272" selection-start-column="40" selection-end-line="272" selection-end-column="40" />
+        <state relative-caret-position="473">
+          <caret line="95" column="52" lean-forward="false" selection-start-line="95" selection-start-column="52" selection-end-line="95" selection-end-column="52" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
             <element signature="n#p#0;n#h2#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#footer#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <marker date="1500902798983" expanded="false" signature="5733:5761" ph="..." />
           </folding>
         </state>
       </provider>
