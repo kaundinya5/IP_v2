@@ -4,7 +4,7 @@ development:
   reconnect: false
   database: ideaportal_development
   pool: 5
-  username: achal
+  username: postgres
   password: nandyelliidli
   host: localhost
 
@@ -14,7 +14,7 @@ test:
   reconnect: false
   database: ideaportal_test<%= ENV['TEST_ENV_NUMBER'] %>
   pool: 5
-  username: achal
+  username: postgres
   password: nandyelliidli
   host: localhost
 
@@ -24,6 +24,6 @@ production:
   reconnect: false
   database: ideaportal_production
   pool: 5
-  username: achal
+  username: postgres
   password: nandyelliidli
   host: localhost
