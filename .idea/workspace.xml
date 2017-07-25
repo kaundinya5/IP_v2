@@ -59,8 +59,8 @@
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="110" column="22" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+            <state relative-caret-position="468">
+              <caret line="119" column="3" lean-forward="false" selection-start-line="99" selection-start-column="2" selection-end-line="119" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -377,12 +377,12 @@
       <updated>1483706809400</updated>
       <workItem from="1493903132035" duration="1092000" />
       <workItem from="1500890289232" duration="2306000" />
-      <workItem from="1500899194914" duration="5938000" />
+      <workItem from="1500899194914" duration="6466000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11969000" />
+    <option name="totallyTimeSpent" value="12497000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -809,8 +809,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="110" column="22" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+        <state relative-caret-position="468">
+          <caret line="119" column="3" lean-forward="false" selection-start-line="99" selection-start-column="2" selection-end-line="119" selection-end-column="3" />
           <folding />
         </state>
       </provider>

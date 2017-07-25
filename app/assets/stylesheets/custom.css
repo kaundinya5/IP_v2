@@ -97,27 +97,27 @@ body .secondary_cta,
     }
 }
 
-@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
-    @media screen {
-        .heroimage {
-            background-image: url('back.png');
-            background-position: bottom;
-            background-size: contain;
-            background-repeat: no-repeat;
-            position: absolute;
-            width: 38vw;
-            height: 50vh;
-            content: "";
-            left: 2vw;
-            bottom: 0;
-            padding-top: 66.64%;
-            float: left;
-        }
-        .other_content {
-            margin-left: 25vw !important;
-        }
-    }
-}
+/*@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {*/
+    /*@media screen {*/
+        /*.heroimage {*/
+            /*background-image: url('back.png');*/
+            /*background-position: bottom;*/
+            /*background-size: contain;*/
+            /*background-repeat: no-repeat;*/
+            /*position: absolute;*/
+            /*width: 38vw;*/
+            /*height: 50vh;*/
+            /*content: "";*/
+            /*left: 2vw;*/
+            /*bottom: 0;*/
+            /*padding-top: 66.64%;*/
+            /*float: left;*/
+        /*}*/
+        /*.other_content {*/
+            /*margin-left: 25vw !important;*/
+        /*}*/
+    /*}*/
+/*}*/
 
 .ip_nav li a {
     line-height: 3.5vh !important;
