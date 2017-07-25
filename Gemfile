@@ -47,3 +47,4 @@ gem 'localtunnel'
 gem 'puma'
 gem 'puma-heroku'
 gem 'rails_12factor', group: :production
+gem 'newrelic_rpm'
