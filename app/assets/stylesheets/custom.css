@@ -211,10 +211,10 @@ b {
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    width: 38vw;
+    width: 24vw;
     height: 50vh;
     content: "";
-    left: -23vw;
+    left: -18vw;
     bottom: 0;
     padding-top: 66.64%;
     float: left;

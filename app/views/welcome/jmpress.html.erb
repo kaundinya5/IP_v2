@@ -26,7 +26,7 @@
                         <nav id="primary-menu" class="navbar">
 
                             <ul class="ip_nav" style="display: flex;flex-direction: column; height: 50vh">
-                                <li><a href="#home">Home</a></li>
+                                <li><a class="selected" href="#home">Home</a></li>
                                 <li><a href="#baba">BabaG</a>
                                 </li>
                                 <!--<li><a href="#about">About</a>-->
@@ -74,7 +74,7 @@
 
                                 <div id="ip_second_div" class="center divcenter row clearfix commonheight " style="">
                                     <!-- Content tha appears on the second half of the screen -->
-                                    <p class="IP_content" style=""> We are a Mysore based technology lab that engineers world class distributed information systems <br>on the web in an agile and lean fashion.
+                                    <p class="IP_content" style=""> We are a Mysuru based technology lab that engineers world class distributed information systems <br>on the web in an agile and lean fashion.
                                       We are currently building BabaG</p>
                                 </div>
                             </div>
@@ -111,7 +111,7 @@
                                            <button id="babag-what" class="button button-large button-border button-rounded tright IP_button" style="width: auto; padding: 0px 43px"><b>What?</b></button>
                                             <div id="babag-what-answer" style='display:none;color:black;'>
                                               <p style=" font-size: 17px">
-                                                Provides localised and <br>personalised content and services.
+                                                Provides localized and <br>personalized content and services.
                                               </p>
                                             </div>
                                         </div>
@@ -121,7 +121,7 @@
 
                                           <div id="babag-why-answer" style='display:none;color:black;'>
                                             <p style=" font-size: 17px">
-                                              Interactive and conversational AI Chatbot <br>augmented with Machine Learing.
+                                              Interactive and conversational AI Chat-bot <br>augmented with Machine Learing.
                                             </p>
                                           </div>
                                         </div>
@@ -132,7 +132,7 @@
 
                                           <div id="babag-who-answer" style='display:none;color:black;'>
                                             <p style=" font-size: 17px">
-                                              Targeted at the bulk of new age Indian Users
+                                              Targeted at the bulk of new age Indian users.
                                             </p>
                                           </div>
                                         </div>
@@ -142,7 +142,7 @@
                     <!-- BabaG page end -->
 
                     <!-- About page-->
-                        <div id="about" class="step" data-rotate-x="90" data-rotate-y="90" data-scale="15">
+                        <div id="about" class="step" data-rotate-x="90" data-rotate-z="180" data-scale="15">
                             <div id ="IP_top" class="col_full center nomargin nopadding" style=" ">
 
                                 <div id ="text" class="center divcenter row clearfix commonheight leftmargin-sm" style=" ">
@@ -232,7 +232,7 @@
                     <!-- About page end-->
 
                     <!-- People page-->
-                        <div id="people" class="step" data-rotate-x="90" data-rotate-y="180" data-scale="15">
+                        <div id="people" class="step" data-rotate-x="90" data-rotate-y="90" data-scale="15">
 
                             <div id ="IP_top" class="col_full center nomargin nopadding" style=" ">
 
@@ -240,9 +240,9 @@
                                     <h2 class=" herotext" style="background: transparent;  font-weight: 200; text-align: left">
                                         <div id ="fireimage" class="heroimage"></div>
                                         <p class="other_content" style="">
-                                          We are a cross functional all-star team of passionate Engineers, Analysts and <br>
-                                          Content Developers working iteratively towards creating disproportionate value<br>
-                                          for the Indian eco system by eking out a new age personalized and<br> localized discovery platform
+                                          We are a cross functional all-star team of passionate Engineers,<br> Analysts and
+                                          Content Developers working iteratively towards <br>creating disproportionate value
+                                          for the Indian eco-system by eking <br> out a new age personalized and localized discovery platform.
                                         </p>
                                     </h2>
                                 </div>
@@ -375,7 +375,7 @@
                     <!-- Careers page end-->
 
                     <!-- Contact page-->
-                        <div id="contact" class="step" data-rotate-x="180" data-scale="15">
+                        <div id="contact" class="step" data-rotate-x="90" data-rotate-y="180" data-scale="15">
                             <div id =
 
                             "IP_contact" class="col_full center nomargin nopadding" style="">
@@ -428,7 +428,7 @@
             transitionDuration: 2000 // Set this according to animation.transitionDuration
                 // It is used for setting the timeout for the transition
         });
-        $(["baba", "about", "people", "careers", "contact"]).each(function() {
+        $(["home", "baba", "about", "people", "careers", "contact"]).each(function() {
             console.log(this);
             console.log($('#' + this));
             var self = this
