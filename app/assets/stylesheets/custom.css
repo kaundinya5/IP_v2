@@ -108,7 +108,7 @@ body .secondary_cta,
             width: 38vw;
             height: 50vh;
             content: "";
-            left: 2vw !important;
+            left: 2vw;
             bottom: 0;
             padding-top: 66.64%;
             float: left;
