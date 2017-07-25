@@ -267,7 +267,7 @@ b {
     filter: none;
     opacity: 1;
     -webkit-filter: grayscale(0);
-    -webkit-transform: scale(1.5);
+    /*-webkit-transform: scale(1.5);*/
 }
 
 #primary-menu-trigger::before {
