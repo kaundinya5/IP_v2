@@ -251,7 +251,7 @@ b {
 .human {
     margin: 10px;
     border-radius: 100px;
-    opacity: 0.9;
+    opacity: 1;
 }
 
 .person-link {
@@ -259,22 +259,15 @@ b {
 }
 
 .grayscale {
-    filter: grayscale(100%);
-    /* Current draft standard */
-    -webkit-filter: grayscale(100%);
-    /* New WebKit */
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    filter: gray;
-    /* IE6+ */
-    opacity: 1;
+    filter: gray; /* IE5+ */
+    -webkit-filter: grayscale(1);
 }
 
 .grayscale:hover {
     filter: none;
     opacity: 1;
     -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.5);
 }
 
 #primary-menu-trigger::before {
