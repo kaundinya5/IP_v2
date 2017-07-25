@@ -362,11 +362,11 @@ span.middot {
 	-moz-filter: brightness(80%) grayscale(1) contrast(90%);
 	-o-filter: brightness(80%) grayscale(1) contrast(90%);
 	-ms-filter: brightness(80%) grayscale(1) contrast(90%);
-	transition: 1s filter ease;
-    -webkit-transition: 1s -webkit-filter ease;
-    -moz-transition: 1s -moz-filter ease;
-    -ms-transition: 1s -ms-filter ease;
-    -o-transition: 1s -o-filter ease;
+    /*transition: 1s filter ease;*/
+    /*-webkit-transition: 1s -webkit-filter ease;*/
+    /*-moz-transition: 1s -moz-filter ease;*/
+    /*-ms-transition: 1s -ms-filter ease;*/
+    /*-o-transition: 1s -o-filter ease;*/
 }
 
 .grayscale:hover {
